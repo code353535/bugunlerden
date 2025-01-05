@@ -4,7 +4,7 @@ import { mapPost } from './postapi';
 import { mapCategory } from './mapCategory';
 
 // API uç noktası
-const WP_API_URL = 'http://localhost/graphql';
+const WP_API_URL = 'https://bugunlerde.com/api/wordpress/graphql';
 
 // Genel API Çağrı İşleyicisi
 const fetchData = async (query, variables = {}) => {

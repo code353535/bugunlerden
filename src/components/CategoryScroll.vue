@@ -131,7 +131,7 @@
     try {
       error.value = null;
       const count = initialLoad.value ? 15 : 6;
-      const response = await axios.post('http://localhost/graphql', {
+      const response = await axios.post('https://bugunlerde.com/api/wordpress/graphql', {
         query: `
           query GetPosts($first: Int!, $after: String, $categorySlug: String!) {
             posts(first: $first, after: $after, where: { categoryName: $categorySlug }) {

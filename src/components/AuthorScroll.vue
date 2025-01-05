@@ -109,7 +109,7 @@ const fetchAuthor = async () => {
   try {
     error.value = null;
     const count = initialLoad.value ? 12 : 8; // İlk yüklemede 12 gönderi, sonrasında 8 gönderi
-    const response = await axios.post('http://localhost/graphql', {
+    const response = await axios.post('https://bugunlerde.com/api/wordpress/graphql', {
       query: `
         query GetAuthor($first: Int!, $after: String, $id: Int!) {
           posts(first: $first, after: $after, where: { author: $id }) {

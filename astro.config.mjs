@@ -11,7 +11,7 @@ export default defineConfig({
   image: {
     domains: ["astro.build"],
   },
-  site: 'http://localhost',
+  site: 'https://bugunlerde.com',
   integrations: [vue(), tailwind(), icon(), sitemap()],
   build: {
     output: 'static',
