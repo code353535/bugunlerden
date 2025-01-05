@@ -1,0 +1,42 @@
+---
+import '../styles/base.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+// Layout için dinamik meta bilgileri alın
+const { title, description, uri, image } = Astro.props;
+
+---
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title} | BUGUNLERDE.COM</title>
+    <meta name="description" content={description} />
+
+    <!-- Open Graph Meta Etiketleri -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={uri} />
+    <meta property="og:image" content={image} />
+    <meta property="og:type" content="article" />
+
+    <!-- Twitter Card Etiketleri -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+
+    <link rel="sitemap" href="/sitemap-index.xml" />
+  </head>
+  <body>
+   <div id="sayfa">
+    <Header />
+    <div class="max-w-screen-xl mx-auto">
+      <slot />
+    </div>
+    <Footer />
+  </div>
+  </body>
+  </html>
+  

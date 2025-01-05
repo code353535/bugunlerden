@@ -1,0 +1,135 @@
+---
+import Layout from "../../layouts/layout.astro";
+import { fetchPostsByAuthor, fetchAuthors } from "../../lib/api";
+import { formatDistanceToNow } from 'date-fns';
+import { tr } from 'date-fns/locale';
+import { decodeBase64Id } from '../../lib/utils';
+import AuthorScroll from '../../components/AuthorScroll.vue';
+import { Image } from 'astro:assets';
+
+export async function getStaticPaths() {
+  const authors = await fetchAuthors();
+  
+  // Generate paths using decoded author IDs
+  const paths = authors.map((author) => {
+    const decodedId = author.id ? decodeBase64Id(author.id) : null;
+    return {
+      params: { id: decodedId ? decodedId.toString() : '' },
+    };
+  });
+
+  return paths;
+}
+
+const { id } = Astro.params;
+
+let posts = [];
+let error = null;
+let authorName = '';
+
+// Fetch posts and author name
+try {
+  posts = await fetchPostsByAuthor(id);
+  // Get author name
+  const authors = await fetchAuthors();
+  const author = authors.find((author) => decodeBase64Id(author.id).toString() === id);
+  authorName = author ? author.name : 'Yazar bulunamadı';
+} catch (err) {
+  error = 'Yazara ait postlar alınamadı.';
+}
+
+const formattedPosts = posts.map((post) => ({
+  ...post,
+  formattedDate: formatDistanceToNow(new Date(post.date), { addSuffix: true, locale: tr }),
+}));
+
+const remainingPosts = formattedPosts
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 12);
+
+---
+<Layout title={`${authorName} isimli yazara ait içerikler`} description={`${authorName} isimli yazara ait içerikler`}>
+
+  {remainingPosts.length === 0 ? (
+    <p class="text-center col-span-1 mt-6 h-[100vh]">{authorName} tarafından yazılan henüz bir gönderi yok.</p>
+  ) : (
+    <>
+      <div class="md:hidden relative px-2 py-2 mx-4 my-4 flex justify-center md:justify-start items-center text-xs baslik text-white dark:text-white font-bold uppercase bg-[#000] dark:bg-[#141414]">
+        Yazar: {authorName}
+      </div>
+      
+
+      {/* Hero Posts End */}
+      <div class="flex flex-row gap-4 items-center my-[50px] max-md:hidden">
+        <span class="w-16 h-1 bg-red-500"></span>
+        <span class="text-lg font-bold text-center text-black dark:text-gray-100 relative uppercase baslik px-6">
+          Yazar : {authorName}
+        </span>
+      </div>
+
+      {remainingPosts.length < 4 ? (
+       <div class="flex flex-col justify-center items-center mt-8">
+       <span class="text-xl font-bold baslik text-red-500">Daha fazlası çok yakında...</span>
+       <h3 class="px-4 text-[12px] font-thin text-black dark:text-white tracking-widest baslik">{authorName} yazarı için, içerik bekleniyor.</h3>
+      </div> 
+) : (
+<>
+      <div id="remainingPosts" class="grid grid-cols-1 md:grid-cols-4 min-h-16 gap-4 md:gap-[10px] mt-4 md:px-0 px-4">
+        {remainingPosts.map((post) => (
+          <div class="col-span-1">
+            <div class="flex flex-col h-full">
+              {/* Görsel alanı */}
+              <div class="relative w-full h-[250px] md:h-[200px] overflow-hidden group">
+                {post.imageUrl && (
+                  <a href={`/post/${post.slug}`}>
+                    <Image
+                      src={post.imageUrl}
+                      alt={post.altText}
+                      loading="lazy"
+                      width={250}
+                      height={250}
+                      class="w-full h-[250px] md:h-[200px] object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </a>
+                )}
+              </div>
+
+              {/* İçerik alanı */}
+              <div class="relative flex flex-col justify-between flex-grow p-4 dark:bg-[#212121] bg-gray-100">
+            
+                {/* Başlık */}
+                <h2 class="text-md baslik font-semibold">
+                  <a href={`/post/${post.slug}`} class="olink">{post.title}</a>
+                </h2>
+                <div class="flex justify-between items-center mt-4">
+                <div class="text-xs">
+                      <span class="inline-block font-semibold hover:bg-red-500 dark:bg-[#212121] dark:hover:text-red-500 dark:text-gray-500 text-black hover:text-white  bg-gray-200 px-1 py-1">
+                        <a href={`/category/${post.categorySlug}`}>
+                          {post.category}
+                        </a>
+                      </span>
+                    </div>
+                {/* Tarih */}
+                <p class="flex justify-center text-xs text-gray-500">
+                  {post.formattedDate}
+                </p>
+              </div>
+                <div class="max-md:hidden absolute bottom-0 left-0 w-full h-full pointer-events-none">
+                  <div class="absolute left-0 bottom-0 border-l-4 border-b-4 border-gray-200 dark:border-gray-800 w-[20px] h-[20px]"></div>
+                  <div class="absolute right-0 bottom-0 border-r-4 border-b-4 border-gray-200 dark:border-gray-800 w-[20px] h-[20px]"></div>
+                </div>
+                <div class="max-md:hidden absolute top-0 left-0 w-full h-full pointer-events-none">
+                  <div class="absolute left-0 top-0 border-l-4 border-b-4 border-gray-200 dark:border-gray-800 w-[20px] h-[20px] rotate-90"></div>
+                  <div class="absolute right-0 top-0 border-r-4 border-b-4 border-gray-200 dark:border-gray-800 w-[20px] h-[20px] -rotate-90"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      </>
+)}
+      <AuthorScroll client:visible  authorId={id} />
+    </>
+  )}
+</Layout>

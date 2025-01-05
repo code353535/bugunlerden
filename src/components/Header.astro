@@ -1,0 +1,147 @@
+---
+// Astro component (e.g., `Navbar.astro`)
+import { fetchCategories } from '../lib/api';
+import MobileMenu from './MobileMenu.vue';
+import { Icon } from 'astro-icon/components';
+import ScrollProgress from './ScrollProgress.vue';
+import SosyalMedya from './SosyalMedya.astro';
+
+const categories = await fetchCategories();
+---
+<div class="left-0 sticky top-0 w-full z-50 dark:bg-[#141414]">
+  <!-- Desktop Layout -->
+  <div id="header" class="gap-2 max-md:hidden max-w-screen-xl mx-auto h-[70px] flex justify-between items-center bg-[#f9d73a] dark:shadow-none shadow-lg shadow-slate-500/50 transition-all ease-in-out duration-500">
+    <ScrollProgress client:load />
+    <!-- Logo and Title -->
+    <div class="basis-1/5 px-4 flex items-center">
+      <span class="baslik text-lg text-[#171543] font-black whitespace-nowrap">
+        <h1 class="baslik" translate="no">
+          <a href="/">
+            <span>B</span><span>U</span><span>G</span><span>U</span><span>N</span><span>L</span><span>E</span><span>R</span><span>D</span><span>E</span>.
+            <span class="bg-[#d7b82b] py-1 px-1 shadow-sm mx-0.2">C</span>
+            <span class="bg-[#d7b82b] py-1 px-1 shadow-sm mx-0.2">O</span>
+            <span class="bg-[#d7b82b] py-1 px-1 shadow-sm mx-0.2">M</span>
+          </a>
+        </h1>
+      </span>
+    </div>
+
+    <!-- Categories -->
+    <div class="basis-3/5 flex justify-center h-full">
+      <div class="flex text-lg space-x-3">
+        {categories.map((category) => (
+          <div class="relative group flex items-center">
+            <a href={`/category/${category.slug}`} class="flex items-center px-4 h-full text-[12px] baslik group-hover:text-red-600 font-bold uppercase text-black relative">
+              {category.children.length > 0 && (
+                <span class="mr-1 transition-transform text-md group-hover:rotate-90 duration-500 ease-in-out">+</span>
+              )}
+              {category.name}
+            </a>
+
+            {category.children.length > 0 && (
+              <div class="absolute top-full left-4 min-w-[200px] flex flex-col bg-red-600 px-4 py-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-[cubic-bezier(0.25,_0.8,_0.25,_1)] translate-y-10 shadow-lg shadow-slate-500/50 dark:shadow-none">
+                <span class="absolute top-[0.2px] left-6 -translate-y-1/2 w-2 h-2 bg-red-600 rotate-45 transform origin-center"></span>
+                <div class="flex flex-col pb-2 space-y-1 text-white">
+                  {category.children.map((subCategory, index) => (
+                    <a href={`/category/${subCategory.slug}`} class={`text-[11px] baslik font-bold uppercase hover:text-[#f9d73a] transition-transform duration-300 ease-in-out translate-y-5 group-hover:translate-y-0 transition-opacity opacity-0 group-hover:opacity-100`} style={{ transitionDelay: `${index * 70}ms` }}>
+                      {subCategory.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Social Media Buttons -->
+    <div class="basis-1/5 flex justify-end items-center">
+      <button type="button" class="theme-toggle h-2 w-8 bg-[#000] dark:bg-[#000] flex items-center justify-start dark:justify-end transition-colors duration-100" aria-checked="false" aria-label="Toggle Dark Mode">
+        <span class="sr-only">Toggle Dark Mode</span>
+        <span class="w-5 h-5 bg-[#d7b82b] transform transition-transform duration-200 translate-x-0 dark:translate-x-1 ease-in">
+          <span class="absolute inset-0 flex items-center justify-center opacity-100 dark:opacity-0 transition-opacity duration-200">
+            <!-- Sun Icon (Light Mode) -->
+            <Icon name="sun" class="p-0.5 text-[22px] rounded text-[#fff] bg-[#d7b82b] shadow-sm shadow-slate-600/50" />
+          </span>
+          <span class="absolute inset-0 flex items-center justify-center opacity-0 dark:opacity-100 transition-opacity duration-200">
+            <!-- Moon Icon (Dark Mode) -->
+            <Icon name="moon" class="p-0.5 text-[22px] rounded text-[#fff] bg-[#d7b82b] shadow-sm shadow-slate-600/50" />
+          </span>
+        </span>
+      </button>
+      <SosyalMedya />
+    </div>
+  </div>
+
+  <!-- Mobile Layout -->
+  <div class="md:hidden max-w-screen-md mx-auto h-[60px] bg-white dark:bg-[#141414] flex justify-between items-center px-4">
+    <div>
+      <button type="button" class="theme-toggle h-2 w-8 bg-[#000] dark:bg-[#000] flex items-center justify-start dark:justify-end transition-colors duration-100" aria-checked="false" aria-label="Toggle Dark Mode">
+        <span class="sr-only">Toggle Dark Mode</span>
+        <span class="w-5 h-5 bg-[#d7b82b] transform transition-transform duration-200 translate-x-0 dark:translate-x-1 ease-in">
+          <span class="absolute inset-0 flex items-center justify-center opacity-100 dark:opacity-0 transition-opacity duration-200">
+            <!-- Sun Icon (Light Mode) -->
+            <Icon name="sun" class="p-0.5 text-[22px] rounded text-[#fff] bg-[#d7b82b] shadow-sm shadow-slate-600/50" />
+          </span>
+          <span class="absolute inset-0 flex items-center justify-center opacity-0 dark:opacity-100 transition-opacity duration-200">
+            <!-- Moon Icon (Dark Mode) -->
+            <Icon name="moon" class="p-0.5 text-[22px] rounded text-[#fff] bg-[#d7b82b] shadow-sm shadow-slate-600/50" />
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <span class="baslik text-sm text-[#171543] dark:text-white font-black whitespace-nowrap animate-charcter">
+       <h1>
+        <a href="/">
+          <span class="bg-[#d7b82b] text-[#141414] py-1 px-1 shadow-sm mx-0.2">B</span>
+          <span class="bg-[#d7b82b] text-[#141414] py-1 px-1 shadow-sm mx-0.2">U</span>
+          <span class="bg-[#d7b82b] text-[#141414] py-1 px-1 shadow-sm mx-0.2">G</span>
+          <span class="bg-[#d7b82b] text-[#141414] py-1 px-1 shadow-sm mx-0.2">U</span>
+          <span class="bg-[#d7b82b] text-[#141414] py-1 px-1 shadow-sm mx-0.2">N</span>
+          <span class="bg-[#d7b82b] text-[#141414] py-1 px-1 shadow-sm mx-0.2">L</span>
+          <span class="bg-[#d7b82b] text-[#141414] py-1 px-1 shadow-sm mx-0.2">E</span>
+          <span class="bg-[#d7b82b] text-[#141414] py-1 px-1 shadow-sm mx-0.2">R</span>
+          <span class="bg-[#d7b82b] text-[#141414] py-1 px-1 shadow-sm mx-0.2">D</span>
+          <span class="bg-[#d7b82b] text-[#141414] py-1 px-1 shadow-sm mx-0.2">E</span>
+        </a>
+        </h1>
+      </span>
+    </div>
+    <div><MobileMenu client:load /></div>
+  </div>
+</div>
+
+<script src="/js/theme.js" defer></script>
+
+<script defer>
+  const header = document.getElementById("header");
+  let lastScrollTop = 0; // Previous scroll position
+  let scrollAmount = 0;  // Track scroll amount
+
+  window.addEventListener("scroll", () => {
+    const scrollTop = window.scrollY; // Current scroll position
+
+    // Calculate scroll amount
+    if (scrollTop > lastScrollTop) {
+      // Scrolling down
+      scrollAmount += scrollTop - lastScrollTop;
+    } else {
+      // Scrolling up
+      scrollAmount -= lastScrollTop - scrollTop;
+    }
+
+    // If scroll amount exceeds 150px, shrink header
+    if (scrollAmount > 150) {
+      header.classList.add("h-[50px]");
+      header.classList.remove("h-[70px]");
+    } else {
+      header.classList.remove("h-[50px]");
+      header.classList.add("h-[70px]"); // Restore original height
+    }
+
+    // Update last scroll position
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+  });
+</script>
