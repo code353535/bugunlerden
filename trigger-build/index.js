@@ -20,6 +20,6 @@ app.post("/trigger-build", (req, res) => {
     });
 });
 
-app.listen(3000, () => {
+app.listen(4000, () => {
     console.log("Build trigger server is running on port 3000");
 });
