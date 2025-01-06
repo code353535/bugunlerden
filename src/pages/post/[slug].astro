@@ -4,8 +4,6 @@ import Layout from "../../layouts/layout.astro";
 import { Icon } from 'astro-icon/components';
 import { Image } from 'astro:assets';
 
-export const prerender = false;
-
 export async function getStaticPaths() {
   const posts = await getAllPostSlugs();
 
