@@ -14,6 +14,6 @@ export default defineConfig({
   site: 'https://bugunlerde.com',
   integrations: [vue(), tailwind(), icon(), sitemap()],
   build: {
-    output: 'static',
+    output: 'server',
   },
 });
