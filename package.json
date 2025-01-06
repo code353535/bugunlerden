@@ -15,6 +15,7 @@
     "astro-icon": "^1.1.4",
     "axios": "^1.7.7",
     "date-fns": "^4.1.0",
+    "express": "^4.21.2",
     "vue": "^3.5.12"
   },
   "devDependencies": {
