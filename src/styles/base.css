@@ -8,9 +8,11 @@
 html {
     font-family: "Poppins", sans-serif;
     background-color: #ffffff;
+    font-display: swap;
 }
 .baslik {
     font-family: "Unbounded", sans-serif;
+    font-display: swap;
 }
 
 html.dark {
