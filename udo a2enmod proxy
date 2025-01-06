@@ -1,0 +1,988 @@
+Jan 05 22:28:00 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 135.[0m
+Jan 05 22:28:00 ubuntu-4gb-fsn1-2 apachectl[765]: AH00112: Warning: DocumentRoot [/var/www/html/astro] does not exist
+Jan 05 22:28:00 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 135.[0m
+Jan 05 22:42:10 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 1169.[0m
+Jan 05 22:42:10 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 05 22:42:10 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 1169 and the job result is done.[0m
+Jan 05 22:42:10 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 1.191s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 05 22:42:10 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 1169.[0m
+Jan 05 22:42:10 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 1169.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2119.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1218 (apache2) with signal SIGKILL.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1452 (apache2) with signal SIGKILL.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1503 (apache2) with signal SIGKILL.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1504 (apache2) with signal SIGKILL.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1670 (apache2) with signal SIGKILL.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1671 (apache2) with signal SIGKILL.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1756 (apache2) with signal SIGKILL.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1860 (apache2) with signal SIGKILL.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1861 (apache2) with signal SIGKILL.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2119 and the job result is done.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 43.847s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2119.[0m
+Jan 05 23:15:45 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2119.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2325.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1891 (apache2) with signal SIGKILL.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1893 (apache2) with signal SIGKILL.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1894 (apache2) with signal SIGKILL.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1905 (apache2) with signal SIGKILL.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1909 (apache2) with signal SIGKILL.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 1910 (apache2) with signal SIGKILL.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2325 and the job result is done.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 1.274s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2325.[0m
+Jan 05 23:21:41 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2325.[0m
+Jan 05 23:31:53 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2531.[0m
+Jan 05 23:31:53 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 05 23:31:53 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2531 and the job result is done.[0m
+Jan 05 23:31:53 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 1.761s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 05 23:31:53 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2531.[0m
+Jan 05 23:31:53 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2531.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12749.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 2308 (apache2) with signal SIGKILL.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 2385 (apache2) with signal SIGKILL.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 2442 (apache2) with signal SIGKILL.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 2443 (apache2) with signal SIGKILL.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 2446 (apache2) with signal SIGKILL.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 5284 (apache2) with signal SIGKILL.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12749 and the job result is done.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 12.152s CPU time, 121.0M memory peak, 0B memory swap peak.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12749.[0m
+Jan 06 09:48:15 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12749.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14512.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 6300 (apache2) with signal SIGKILL.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11006 (apache2) with signal SIGKILL.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11124 (apache2) with signal SIGKILL.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11378 (apache2) with signal SIGKILL.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11603 (apache2) with signal SIGKILL.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11604 (apache2) with signal SIGKILL.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11605 (apache2) with signal SIGKILL.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14512 and the job result is done.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 15.365s CPU time, 14.0M memory peak, 0B memory swap peak.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14512.[0m
+Jan 06 11:01:08 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14512.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14615.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11643 (apache2) with signal SIGKILL.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11644 (apache2) with signal SIGKILL.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11646 (apache2) with signal SIGKILL.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11647 (apache2) with signal SIGKILL.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11648 (apache2) with signal SIGKILL.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 11649 (apache2) with signal SIGKILL.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14615 and the job result is done.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 1.249s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 11:03:32 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14615.[0m
+Jan 06 11:03:33 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14615.[0m
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 18572.[0m
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 apachectl[15299]: AH00112: Warning: DocumentRoot [/var/www/html/bugunlerden/dist] does not exist
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 apachectl[15299]: AH00112: Warning: DocumentRoot [/var/www/html/bugunlerden/dist] does not exist
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 apachectl[15299]: AH00112: Warning: DocumentRoot [/var/www/html/bugunlerden/dist] does not exist
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 18572 and the job result is done.[0m
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 1min 9.498s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 18572.[0m
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 apachectl[15306]: AH00112: Warning: DocumentRoot [/var/www/html/bugunlerden/dist] does not exist
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 apachectl[15306]: AH00112: Warning: DocumentRoot [/var/www/html/bugunlerden/dist] does not exist
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 apachectl[15306]: AH00112: Warning: DocumentRoot [/var/www/html/bugunlerden/dist] does not exist
+Jan 06 14:52:15 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 18572.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19503.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 15904 (apache2) with signal SIGKILL.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 15917 (apache2) with signal SIGKILL.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 15919 (apache2) with signal SIGKILL.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 15935 (apache2) with signal SIGKILL.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 15936 (apache2) with signal SIGKILL.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 16106 (apache2) with signal SIGKILL.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 16107 (apache2) with signal SIGKILL.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19503 and the job result is done.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 27.542s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19503.[0m
+Jan 06 15:43:24 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19503.[0m
+Jan 06 15:43:31 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19606.[0m
+Jan 06 15:43:31 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 15:43:31 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19606 and the job result is done.[0m
+Jan 06 15:43:31 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19606.[0m
+Jan 06 15:43:31 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19606.[0m
+Jan 06 15:52:56 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 20022.[0m
+Jan 06 15:52:57 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 15:52:57 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 20022 and the job result is done.[0m
+Jan 06 15:52:57 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 4.056s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 15:52:57 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 20022.[0m
+Jan 06 15:52:57 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 20022.[0m
+Jan 06 20:17:12 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25000.[0m
+Jan 06 20:17:13 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 20:17:13 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25000 and the job result is done.[0m
+Jan 06 20:17:13 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 44.827s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 20:17:13 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25000.[0m
+Jan 06 20:17:13 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25000.[0m
+Jan 06 20:19:38 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25103.[0m
+Jan 06 20:19:38 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 20:19:38 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25103 and the job result is done.[0m
+Jan 06 20:19:38 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25103.[0m
+Jan 06 20:19:38 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25103.[0m
+Jan 06 20:37:23 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25412.[0m
+Jan 06 20:37:23 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 19260 (apache2) with signal SIGKILL.[0m
+Jan 06 20:37:23 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 20:37:23 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25412 and the job result is done.[0m
+Jan 06 20:37:23 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 8.858s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 20:37:23 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25412.[0m
+Jan 06 20:37:23 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25412.[0m
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26755.[0m
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 apachectl[21193]: AH00526: Syntax error on line 7 of /etc/apache2/sites-enabled/default-ssl.conf:
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 apachectl[21193]: SSLCertificateFile: file '/etc/ssl/certs/bugunlerde.com.crt' does not exist or is empty
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStop= process belonging to unit apache2.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26755 and the job result is done.[0m
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 21.138s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26755.[0m
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 apachectl[21199]: AH00526: Syntax error on line 7 of /etc/apache2/sites-enabled/default-ssl.conf:
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 apachectl[21199]: SSLCertificateFile: file '/etc/ssl/certs/bugunlerde.com.crt' does not exist or is empty
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit apache2.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 06 21:55:06 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start apache2.service - The Apache HTTP Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26755 and the job result is failed.[0m
+Jan 06 21:58:03 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26858.[0m
+Jan 06 21:58:03 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26858.[0m
+Jan 06 22:15:06 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27270.[0m
+Jan 06 22:15:06 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 22:15:06 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27270 and the job result is done.[0m
+Jan 06 22:15:06 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 12.565s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 22:15:06 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27270.[0m
+Jan 06 22:15:06 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27270.[0m
+Jan 06 22:16:37 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27373.[0m
+Jan 06 22:16:37 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 22:16:37 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27373 and the job result is done.[0m
+Jan 06 22:16:37 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27373.[0m
+Jan 06 22:16:37 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27373.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27579.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 22090 (apache2) with signal SIGKILL.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 22091 (apache2) with signal SIGKILL.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 22093 (apache2) with signal SIGKILL.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 22100 (apache2) with signal SIGKILL.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 22102 (apache2) with signal SIGKILL.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27579 and the job result is done.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 4.387s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27579.[0m
+Jan 06 22:28:15 ubuntu-4gb-fsn1-2 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27579.[0m
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28101.[0m
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 apachectl[22562]: AH00526: Syntax error on line 11 of /etc/apache2/sites-enabled/bugunlerde.conf:
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 apachectl[22562]: SSLCertificateFile: file '/etc/ssl/certs/bugunlerde.com.crt' does not exist or is empty
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStop= process belonging to unit apache2.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28101 and the job result is done.[0m
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 systemd[1]: apache2.service: Consumed 9.389s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28101.[0m
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 apachectl[22569]: AH00526: Syntax error on line 11 of /etc/apache2/sites-enabled/bugunlerde.conf:
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 apachectl[22569]: SSLCertificateFile: file '/etc/ssl/certs/bugunlerde.com.crt' does not exist or is empty
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit apache2.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 06 22:49:16 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start apache2.service - The Apache HTTP Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28101 and the job result is failed.[0m
+Jan 06 22:49:58 ubuntu-4gb-fsn1-2 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28204.[0m
+Jan 06 22:49:58 ubuntu-4gb-fsn1-2 apachectl[22594]: AH00526: Syntax error on line 11 of /etc/apache2/sites-enabled/bugunlerde.conf:
+Jan 06 22:49:58 ubuntu-4gb-fsn1-2 apachectl[22594]: SSLCertificateFile: file '/etc/ssl/certs/bugunlerde.com.crt' does not exist or is empty
+Jan 06 22:49:58 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit apache2.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 06 22:49:58 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 06 22:49:58 ubuntu-4gb-fsn1-2 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start apache2.service - The Apache HTTP Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28204 and the job result is failed.[0m
