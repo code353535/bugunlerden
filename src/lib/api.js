@@ -26,6 +26,7 @@ export const fetchPosts = async () => {
           id
           title
           slug
+          url
           date
           excerpt
           author {

@@ -93,14 +93,14 @@ const relatedPosts = await fetchRelatedPosts(post.categorySlug, post.id);
       <div class="flex items-center mt-4">
   <span class="text-sm mr-4 font-semibold">Bu içeriği sosyal medyada paylaş : </span>
   <a
-    href={`https://www.facebook.com/sharer/sharer.php?u=https://bugunlerde.com/post${post.uri}`}
+    href={`https://www.facebook.com/sharer/sharer.php?u=https://bugunlerde.com/post${post.url}`}
     target="_blank"
     rel="noopener noreferrer"
   >
         <Icon name="facebook" class="p-0.5 mr-2 text-[24px] rounded text-[#000] bg-[#d7b82b] hover:shadow-sm shadow-md shadow-slate-500/50"/>
         </a>
         <a
-    href={`https://twitter.com/intent/tweet?url=https://bugunlerde.com/post${post.uri}&text=${encodeURIComponent(post.title)}`}
+    href={`https://twitter.com/intent/tweet?url=https://bugunlerde.com/post${post.url}&text=${encodeURIComponent(post.title)}`}
     target="_blank"
     rel="noopener noreferrer"
   >
