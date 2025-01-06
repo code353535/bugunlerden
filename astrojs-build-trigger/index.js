@@ -1,12 +1,12 @@
-const express = require("express");
-const { exec } = require("child_process");
+import express from "express";
+import { exec } from "child_process";
 
 const app = express();
 app.use(express.json());
 
 app.post("/trigger-build", (req, res) => {
     console.log("Build Triggered!");
-    exec("cd /var/www/html/bugunlerden && npm run build", (error, stdout, stderr) => {
+    exec("npm run build", (error, stdout, stderr) => {
         if (error) {
             console.error(`Error: ${error.message}`);
             return res.status(500).send("Build failed");
