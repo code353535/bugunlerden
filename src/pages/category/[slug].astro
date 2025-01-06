@@ -6,6 +6,8 @@ import { tr } from 'date-fns/locale';
 import PostList from '../../components/CategoryScroll.vue';
 import { Image } from 'astro:assets';
 
+export const prerender = false;
+
 export async function getStaticPaths() {
   const categories = await fetchCategori(); 
 

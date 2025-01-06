@@ -7,6 +7,8 @@ import { decodeBase64Id } from '../../lib/utils';
 import AuthorScroll from '../../components/AuthorScroll.vue';
 import { Image } from 'astro:assets';
 
+export const prerender = false;
+
 export async function getStaticPaths() {
   const authors = await fetchAuthors();
   
