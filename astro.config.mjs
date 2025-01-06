@@ -4,7 +4,6 @@ import vue from '@astrojs/vue';
 import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 
-import node from '@astrojs/node';
 
 export default defineConfig({
   prefetch: {
@@ -22,7 +21,5 @@ export default defineConfig({
     output: 'static',
   },
 
-  adapter: node({
-    mode: 'standalone',
-  }),
+ 
 });
