@@ -6,7 +6,7 @@ npm ci
 npm run build && {
 # 2. change yap
     echo "Deploying new build to live site..."
-    mv temp dist
+   rm -rf dist/* && mv temp/* dist/
 } || {
     echo "Build failed."
     exit 1
