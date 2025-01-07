@@ -20,6 +20,6 @@ export default defineConfig({
   build: {
     output: 'static',
   },
-
+ outDir: './temp'
  
 });
