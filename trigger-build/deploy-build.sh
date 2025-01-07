@@ -5,14 +5,7 @@
 # 1. Yeni build oluştur
 echo "Running build in temporary directory..."
 npm ci
-npm run build && {
-    # 2. Build tamamlandıktan sonra işlemi yap
-    echo "Deploying new build to live site..."
-    rm -rf /var/www/html/bugunlerden/dist/* && mv /var/www/html/bugunlerden/temp/* /var/www/html/bugunlerden/dist/
-} || {
-    echo "Build failed."
-    exit 1
-}
+npm run build 
 
 # 3. Eski yedeği sakla veya temizle
 echo "Deployment complete! Old site backed up at $BACKUP_DIR."
