@@ -1,1 +1,5 @@
 npm 
+# build dosyalarını ve çıkartılacak dosyaları ignore et
+/dist
+/build
+*.log
