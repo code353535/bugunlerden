@@ -4,7 +4,7 @@ import { exec } from "child_process";
 const app = express();
 app.use(express.json());
 
-app.post("/trigger-build", (req, res) => {
+app.post("./trigger-build", (req, res) => {
     console.log("Build Triggered!");
 
     // Bash komutunu çalıştırmak için exec kullanıyoruz
