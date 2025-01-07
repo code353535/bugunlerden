@@ -14,7 +14,7 @@ mkdir -p $BUILD_DIR
 # 2. Yeni build oluştur
 echo "Running build in temporary directory..."
 npm ci
-npm run build --output $BUILD_DIR
+npm run build 
 
 # 3. Build işlemi tamamlandıktan sonra eski sürümü yedekle
 echo "Backing up current live site..."

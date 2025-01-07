@@ -6,9 +6,6 @@ import sitemap from '@astrojs/sitemap';
 
 
 export default defineConfig({
-  buildOptions: {
-    out: '/var/www/html/bugunlerden/temp',  // Burada istediğiniz dizini belirtin
-  },
   prefetch: {
     defaultStrategy: 'viewport'
   },
@@ -23,6 +20,6 @@ export default defineConfig({
   build: {
     output: 'static',
   },
-
+ outDir: './temp'
  
 });
