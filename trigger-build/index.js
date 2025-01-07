@@ -6,7 +6,9 @@ app.use(express.json());
 
 app.post("/trigger-build", (req, res) => {
     console.log("Build Triggered!");
-    exec("npm run build", (error, stdout, stderr) => {
+
+    // Bash komutunu çalıştırmak için exec kullanıyoruz
+    exec("./deploy-build.sh", (error, stdout, stderr) => {
         if (error) {
             console.error(`Error: ${error.message}`);
             return res.status(500).send("Build failed");
