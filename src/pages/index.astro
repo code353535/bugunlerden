@@ -26,6 +26,10 @@ const sortedPosts = posts
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(7, 15); 
 
+  const postLinks = posts.slice(0, 5).map(post => 
+  `<a href="/post/${post.slug}" class="bg-black text-white hover:underline text-lg py-1 px-4 baslik">${post.title}</a>`
+).join(' - ');
+
   function truncateText(text, maxLength) {
   if (text.length > maxLength) {
     return text.substring(0, maxLength) + "...";
@@ -88,7 +92,6 @@ function formatDate(postDate) {
         </div>
       ))}
     </div>
-
     {/* Hero dortlu */}
     <div class="flex flex-row gap-4 items-center my-[50px] max-md:hidden">
       <span class="w-16 h-1 bg-red-500"></span>
@@ -275,6 +278,5 @@ function formatDate(postDate) {
 </section>
 <IndexScroll client:load />
   </div>
-  
 </Layout>
 
