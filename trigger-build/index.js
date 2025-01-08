@@ -1,27 +1,23 @@
-import express from "express";
-import { exec } from "child_process";
-
-const app = express();
-app.use(express.json());
+import { spawn } from "child_process";
 
 app.post("/trigger-build", (req, res) => {
     console.log("Build Triggered!");
 
-    // Bash komutunu çalıştırmak için exec kullanıyoruz
-    exec("./deploy-build.sh", (error, stdout, stderr) => {
-        if (error) {
-            console.error(`Error: ${error.message}`);
-            return res.status(500).send("Build failed");
-        }
-        if (stderr) {
-            console.error(`Stderr: ${stderr}`);
-            return res.status(500).send("Build failed");
-        }
-        console.log(`Stdout: ${stdout}`);
-        res.send("Build successful");
-    });
-});
+    const deployProcess = spawn("./deploy-build.sh");
 
-app.listen(3000, '0.0.0.0', () => {
-    console.log('Server is running on http://0.0.0.0:3000');
+    deployProcess.stdout.on("data", (data) => {
+        console.log(`Stdout: ${data}`);
+    });
+
+    deployProcess.stderr.on("data", (data) => {
+        console.error(`Stderr: ${data}`);
+    });
+
+    deployProcess.on("close", (code) => {
+        if (code === 0) {
+            res.send("Build successful");
+        } else {
+            res.status(500).send("Build failed");
+        }
+    });
 });
