@@ -72,7 +72,7 @@ const relatedPosts = await fetchRelatedPosts(post.categorySlug, post.id);
           )}
         </div>
         <div class="text-xs flex items-center text-slate-900 dark:text-gray-200">
-          {new Date(post.date).toLocaleDateString()} | <Icon name="author" class="px-1 text-[24px]"/> <a href={`/author/${post.authorId}`} class="mr-1 olink">{post.author}</a> | <Icon name="reading" class="px-1 text-[24px]"/> {readingTime} dakika
+          {new Date(post.date).toLocaleDateString()} | <Icon name="reading" class="px-1 text-[24px]"/> {readingTime} dakika
         </div>
       </div>
 

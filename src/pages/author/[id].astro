@@ -1,7 +1,7 @@
 ---
 import Layout from "../../layouts/layout.astro";
 import { fetchPostsByAuthor, fetchAuthors } from "../../lib/api";
-import { formatDistanceToNow } from 'date-fns';
+import { format } from 'date-fns';
 import { tr } from 'date-fns/locale';
 import { decodeBase64Id } from '../../lib/utils';
 import AuthorScroll from '../../components/AuthorScroll.vue';
@@ -40,7 +40,7 @@ try {
 
 const formattedPosts = posts.map((post) => ({
   ...post,
-  formattedDate: formatDistanceToNow(new Date(post.date), { addSuffix: true, locale: tr }),
+  formattedDate: format(new Date(post.date), 'dd.MM.yyyy', { locale: tr }),
 }));
 
 const remainingPosts = formattedPosts
