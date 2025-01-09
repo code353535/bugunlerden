@@ -1,7 +1,7 @@
 <template>
     <!-- Menü İkonu -->
     <button @click="toggleMenu" aria-label="Menüyü Aç/Kapat" class="flex items-center">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-7 h-7 text-black dark:text-white dark:hover:text-red-600 hover:text-red-600">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-7 h-7 text-black dark:text-white">
         <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </button>
@@ -9,28 +9,28 @@
     <!-- Mobil Menu Başlangıç -->
     <transition name="slider">
       <div v-if="MobilMenu" class="fixed inset-0 z-50 flex">
-        <div class="bg-[#d7b82b] text-black w-full p-4">
-          <div class="flex justify-between border-b border-[#9a8529] dark:border-[#9a8529]">
+        <div class="bg-[#fff] dark:bg-black  text-black dark:text-gray-100 w-full p-4">
+          <div class="flex justify-between border-b border-[#e6e6e5] dark:border-[#2d2d2d]">
             <div class="pb-4 flex flex-row items-center min-h-12">
-              <span class="baslik text-xl text-black font-black whitespace-nowrap animate-charcter">
-                BUGUNLERDE.COM
+              <span class="baslik text-xl font-black whitespace-nowrap animate-charcter">
+                BUGUNLERDE
               </span>
             </div>
             <div>
               <button @click="MobilMenu = false" class="text-black focus:outline-none mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="font-bold w-6 h-6 hover:text-red-600 text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="font-bold w-6 h-6 text-black dark:text-gray-100">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                 </svg>
               </button>
             </div>
           </div>
   
-          <nav class="mt-6 text-black dark:text-black">
+          <nav class="mt-6 text-black dark:text-gray-100">
             <div v-for="category in categories" :key="category.id">
               <div class="group mb-4 mx-2 mt-6">
                 <!-- Main Category Click to Navigate and Toggle Subcategories -->
                 <div @click="category.subcategories.length > 0 ? toggleCategory(category.id) : navigateToCategory(category.slug)" class="flex items-center cursor-pointer">
-                  <span class="flex text-xl  tracking-wide font-bold uppercase">
+                  <span class="flex text-lg  tracking-wide font-bold uppercase">
                     <a v-if="category.subcategories.length === 0" :href="`/category/${category.slug}`">
                         {{ category.name }}
                       </a>
@@ -48,7 +48,7 @@
   
                 <!-- Show subcategories when clicked -->
                 <transition name="slide" @before-leave="beforeLeave">
-                  <div v-if="selectedCategory === category.id" class="mt-4 font-bold tracking-wide text-xl uppercase">
+                  <div v-if="selectedCategory === category.id" class="mt-4 font-bold tracking-wide text-lg uppercase">
                     <div v-for="(subcategory, index) in category.subcategories" :key="subcategory.id" :style="{ animationDelay: `${index * 0.1}s` }" class="subcategory-item mb-3">
                       <a
                         :href="`/category/${subcategory.slug}`"
