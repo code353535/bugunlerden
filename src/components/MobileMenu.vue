@@ -52,7 +52,7 @@
                     <div v-for="(subcategory, index) in category.subcategories" :key="subcategory.id" :style="{ animationDelay: `${index * 0.1}s` }" class="subcategory-item mb-3">
                       <a
                         :href="`/category/${subcategory.slug}`"
-                        class="flex items-center px-4 text-xl font-bold uppercase"
+                        class="flex items-center px-4 text-lg font-bold uppercase"
                       >
                         {{ subcategory.name }}  <!-- Display subcategory name -->
                       </a>
