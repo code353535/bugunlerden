@@ -7,22 +7,22 @@
   src: url('/fonts/Unbounded-Bold.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Poppins';
   src: url('/fonts/Poppins-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 html {
   font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
-    font-display: swap;
 }
 .baslik {
   font-family: 'Unbounded', sans-serif;
-    font-display: swap;
 }
 
 html.dark {
