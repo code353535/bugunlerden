@@ -79,7 +79,7 @@ const relatedPosts = await fetchRelatedPosts(post.categorySlug, post.id);
       <!-- Description -->
       {post.description && (
         <div class="max-lg:px-4">
-          <div class="dark:text-gray-300 text-black font-bold corner-only">
+          <div class="dark:text-gray-300 text-black corner-only">
             <div class="px-6 py-6" set:html={post.description}></div>
           </div>
         </div>
