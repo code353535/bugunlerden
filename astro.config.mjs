@@ -3,8 +3,6 @@ import tailwind from '@astrojs/tailwind';
 import vue from '@astrojs/vue';
 import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
-
-
 import partytown from '@astrojs/partytown';
 
 
@@ -17,7 +15,6 @@ export default defineConfig({
     domains: ["astro.build"],
   },
 
-  site: 'https://bugunlerde.com',
   integrations: [vue(), tailwind(), icon(), sitemap(), partytown()],
 
   build: {
