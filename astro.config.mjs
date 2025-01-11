@@ -5,6 +5,9 @@ import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 
 
+import partytown from '@astrojs/partytown';
+
+
 export default defineConfig({
   prefetch: {
     defaultStrategy: 'viewport'
@@ -15,7 +18,7 @@ export default defineConfig({
   },
 
   site: 'https://bugunlerde.com',
-  integrations: [vue(), tailwind(), icon(), sitemap()],
+  integrations: [vue(), tailwind(), icon(), sitemap(), partytown()],
 
   build: {
     output: 'static',
