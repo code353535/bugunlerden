@@ -3,12 +3,16 @@ import '../styles/base.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
+import GoogleTagManager from '../components/GoogleAnalytics.astro';
+import GoogleTagManagerNoscript from '../components/GoogleTagManagerNoscript.astro';
+
 // Layout için dinamik meta bilgileri alın
 const { title, description, slug, image } = Astro.props;
 
 ---
 <html lang="tr">
   <head>
+    <GoogleTagManager />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{title} | Bugunlerde.com</title>
@@ -32,6 +36,7 @@ const { title, description, slug, image } = Astro.props;
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
   <body>
+    <GoogleTagManagerNoscript />
    <div id="sayfa">
     <Header />
     <div class="max-w-screen-xl mx-auto">
