@@ -225,7 +225,6 @@ export const fetchPostsByCategory = async (slug) => {
         nodes {
           id
           title
-          name
           slug
           content
           excerpt
