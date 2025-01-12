@@ -1204,3 +1204,1699 @@ Astro.js build işlemi başlıyor...
 Build işlemi tamamlandı.
 Dosya işlemleri başlıyor...
 Dosya işlemleri tamamlandı.
+Webhook sunucusu çalışıyor: http://localhost:3000
+Webhook sunucusu çalışıyor: http://localhost:3000
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736686774501:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686775362:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686775362:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686775362:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686775362:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686775362:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686775362:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686775362:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686775362:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736686778474:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_nZnSKRnP.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736686778474:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736686790858:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686791750:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686791750:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686791750:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686791750:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686791750:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686791750:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686791750:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686791750:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736686794892:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_BeG8d2Cz.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736686794892:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736686807640:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686808471:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686808471:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686808471:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686808471:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686808471:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686808471:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686808471:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736686808471:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736686811627:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_D0CJgkFQ.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736686811627:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687072335:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687073168:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687073168:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687073168:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687073168:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687073168:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687073168:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687073168:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687073168:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687076271:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_CiYAi-aM.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687076271:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687088694:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687089514:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687089514:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687089514:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687089514:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687089514:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687089514:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687089514:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687089514:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687092780:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_v_2oODYL.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687092780:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687166164:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687167000:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687167000:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687167000:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687167000:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687167000:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687167000:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687167000:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687167000:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687170038:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_ByswgE7n.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687170038:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687182435:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687183299:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687183299:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687183299:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687183299:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687183299:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687183299:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687183299:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687183299:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687186372:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_DD8gcm4c.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687186372:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687337904:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687338736:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687338736:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687338736:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687338736:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687338736:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687338736:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687338736:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687338736:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687341770:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_dDrMvMvj.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687341770:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687354030:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687354850:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687354850:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687354850:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687354850:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687354850:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687354850:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687354850:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687354850:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687357860:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_C85b7_ou.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687357860:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687535757:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687536639:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687536639:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687536639:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687536639:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687536639:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687536639:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687536639:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687536639:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687539633:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_CjKVgwwx.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687539633:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687551862:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687552689:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687552689:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687552689:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687552689:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687552689:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687552689:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687552689:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687552689:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687555684:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_BQE9Lil-.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687555684:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687685561:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687686400:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687686400:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687686400:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687686400:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687686400:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687686400:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687686400:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687686400:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687689616:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_BZA8OarG.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687689616:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687701965:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687702774:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687702774:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687702774:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687702774:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687702774:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687702774:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687702774:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687702774:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687705910:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_nmJeQG_y.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687705910:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build hatası: Error fetching posts: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByAuthor (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:415:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/author/_id_.astro.mjs?time=1736687718117:210:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687718940:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687718940:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687718940:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687718940:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687718940:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687718940:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687718940:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching posts by category: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:27:20)
+    at Array.map (<anonymous>)
+    at fetchPostsByCategory (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:330:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/category/_slug_.astro.mjs?time=1736687718940:252:13
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+Error fetching post by slug: ReferenceError: index is not defined
+    at mapPost (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:27:20)
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:215:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687722130:21:16
+    at async callComponentAsTemplateResultOrResponse (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:90:25)
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async renderPage (file:///usr/lib/node_modules/astro/dist/runtime/server/render/page.js:44:12)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async NOOP_MIDDLEWARE_FN (file:///usr/lib/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+Failed to fetch post by slug
+  Stack trace:
+    at getPostBySlug (file:///var/www/html/bugunlerden/temp/chunks/layout_Cn0YeZQb.mjs:242:11)
+    at async file:///var/www/html/bugunlerden/temp/pages/post/_slug_.astro.mjs?time=1736687722130:21:16
+    at async renderToString (file:///usr/lib/node_modules/astro/dist/runtime/server/render/astro/render.js:8:26)
+    at async lastNext (file:///usr/lib/node_modules/astro/dist/core/render-context.js:165:25)
+    at async callMiddleware (file:///usr/lib/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+
+Hata: Build işlemi başarısız oldu
