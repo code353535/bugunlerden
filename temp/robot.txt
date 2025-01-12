@@ -1,7 +1,0 @@
-# Allow all crawlers to access everything
-User-agent: *
-Disallow:/api/wordpress/
-
-
-# Sitemap location
-Sitemap: https://bugunlerde.com/sitemap-index.xml
