@@ -43,7 +43,7 @@ const relatedPosts = await fetchRelatedPosts(post.categorySlug, post.id);
       <div class="relative">
         {post.featuredImage && (
       <Image
-    class="md:max-w-[768px] md:max-h-[518px] w-full md:min-w-[768px] min-h-[350px] md:min-h-[518px] object-cover"
+    class="md:max-w-[768px] md:max-h-[518px] w-full md:min-w-[768px] min-h-[350px] md:min-h-[518px] object-cover object-center md:object-top"
     src={post.featuredImage.node.sourceUrl}
     alt={post.featuredImage.node.altText || "Post Görseli"}
     width={768}
