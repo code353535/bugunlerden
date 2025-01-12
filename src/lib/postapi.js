@@ -10,6 +10,12 @@ import { decodeBase64Id } from './utils';
     const authorId = post.author?.node?.id ? decodeBase64Id(post.author.node.id) : null;
     const categoryDescription = selectedCategory ? selectedCategory.description : 'Açıklama mevcut değil';
   
+    // Determine the next post in the list
+  const nextPost = index < posts.length - 1 ? posts[index + 1] : null;
+
+  // Determine the previous post in the list
+  const previousPost = index > 0 ? posts[index - 1] : null;
+
     return {
       ...post,
       imageUrl: post.featuredImage?.node?.sourceUrl || null,
@@ -21,6 +27,8 @@ import { decodeBase64Id } from './utils';
       categorydesc: categoryDescription,
       category: selectedCategory ? selectedCategory.name : 'Genel',
       categorySlug,
+      nextPost: nextPost ? mapPost(nextPost, index + 1, posts) : null, // Recursively map the next post
+      previousPost: previousPost ? mapPost(previousPost, index - 1, posts) : null, // Recursively map the previous post
     };
   };
   
