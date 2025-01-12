@@ -12,7 +12,6 @@ export async function getStaticPaths() {
   return categories.map((category) => ({
     params: { 
       slug: category.slug,
-      name: category.name,
     },
     fallback: 'blocking',
   }));
