@@ -297,6 +297,7 @@ export const fetchCategori = async () => {
     const data = await fetchData(query);
     return data.categories.nodes.map((category) => ({
       slug: category.slug,
+      name: category.name,
       description: category.description,
     }));
   } catch (error) {
