@@ -1,0 +1,35 @@
+/* empty css                                */
+import { c as createComponent, r as renderTemplate, d as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_74aKCQZx.mjs';
+import 'kleur/colors';
+import { e as $$SosyalMedya, $ as $$Layout } from '../chunks/layout_C79cMFHt.mjs';
+export { renderers } from '../renderers.mjs';
+
+const $$Reklam = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Reklam", "description": "Reklam verme i\u015Flemi hakk\u0131nda" }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<section class="max-w-screen-xl mx-auto py-8 bg-white dark:bg-[#141414] text-black dark:text-gray-200"> <section class="bg-gray-100 dark:bg-gray-900 py-10 px-4 md:px-16"> <div class="max-w-5xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-10"> <h2 class="flex justify-center text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6 uppercase baslik">Reklam Ver</h2> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Bugunlerde.com, geniş bir kullanıcı kitlesine hitap etmektedir. Bu nedenle, sizin gibi markalar için harika bir reklam platformu sunuyoruz. Sitemizde reklam vererek, ürünlerinizi ve hizmetlerinizi doğru kitleye ulaştırabilirsiniz. Reklam alanlarımız hakkında daha fazla bilgi almak ve reklam vermek için aşağıdaki detaylara göz atabilirsiniz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">Reklam Alanlarımız</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemizde çeşitli reklam alanları mevcuttur. İhtiyacınıza uygun olan alanı seçerek reklamınızı hedef kitlenize en etkin şekilde ulaştırabilirsiniz.
+</p> <ul class="list-disc pl-5 text-gray-700 dark:text-gray-300 mb-4"> <li><strong>Banner Reklamlar:</strong> Anasayfa ve içerik sayfalarında yer alabilen banner reklam alanları.</li> <li><strong>Video Reklamlar:</strong> Video içeriklerimize yerleştirilebilecek reklamlar.</li> <li><strong>Pop-up Reklamlar:</strong> Kullanıcıyı hedef alarak, açılır pencerelerde gösterilen reklamlar.</li> <li><strong>Yazılı İçerik Reklamları:</strong> Makaleler ve blog yazıları içinde reklam alanları.</li> </ul> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">Reklam Verme Süreci</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Reklam vermek için aşağıdaki adımları izleyebilirsiniz:
+</p> <ol class="list-decimal pl-5 text-gray-700 dark:text-gray-300 mb-4"> <li><strong>Adım 1:</strong> Reklam türünüzü seçin (banner, video, pop-up, yazılı içerik). </li> <li><strong>Adım 2:</strong> Reklamınızın içeriğini belirleyin (metin, görsel, video vb.).</li> <li><strong>Adım 3:</strong> Hedef kitlenizi tanımlayın (yaş, cinsiyet, ilgi alanları vb.).</li> <li><strong>Adım 4:</strong> Bütçenizi belirleyin ve reklam sürenizi planlayın.</li> <li><strong>Adım 5:</strong> Reklam talebinizi gönderin ve onay sürecini bekleyin.</li> </ol> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">Reklam Fiyatları</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Reklam fiyatlarımız, reklam türüne ve süresine göre değişiklik göstermektedir. Reklam alanları ve fiyatlar hakkında daha detaylı bilgi almak için bizimle iletişime geçebilirsiniz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">Başvuru İçin İletişim</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Reklam verme işlemi hakkında daha fazla bilgi almak veya başvuru yapmak için aşağıdaki iletişim bilgilerimiz üzerinden bizimle iletişime geçebilirsiniz:
+</p> <p class="text-gray-700 dark:text-gray-300 mb-4"> <strong>Email:</strong> <a href="mailto:reklam@bugunlerde.com" class="text-red-500 hover:text-black dark:hover:text-gray-100">reklam@bugunlerde.com</a> </p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">Sosyal Medya</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Sosyal medya hesaplarımız üzerinden de reklam fırsatları hakkında daha fazla bilgi alabilirsiniz:
+</p> ${renderComponent($$result2, "SosyalMedya", $$SosyalMedya, {})} </div> </section> </section> ` })}`;
+}, "/var/www/html/bugunlerden/src/pages/reklam.astro", undefined);
+
+const $$file = "/var/www/html/bugunlerden/src/pages/reklam.astro";
+const $$url = "/reklam";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+    __proto__: null,
+    default: $$Reklam,
+    file: $$file,
+    url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };

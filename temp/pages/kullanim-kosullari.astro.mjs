@@ -1,0 +1,91 @@
+/* empty css                                */
+import { c as createComponent, r as renderTemplate, d as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_74aKCQZx.mjs';
+import 'kleur/colors';
+import { $ as $$Layout } from '../chunks/layout_C79cMFHt.mjs';
+export { renderers } from '../renderers.mjs';
+
+const $$KullanimKosullari = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Ana Sayfa", "description": "Bu kullan\u0131m ko\u015Fullar\u0131, bugunlerde.com hizmetlerini kullan\u0131rken uyulmas\u0131 gereken kurallar\u0131 belirler. Sitemizi veya hizmetlerimizi kullanarak bu ko\u015Fullar\u0131 kabul etmi\u015F say\u0131l\u0131rs\u0131n\u0131z." }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<section class="max-w-screen-xlmx-auto py-8 bg-white dark:bg-[#141414] text-black dark:text-gray-200"> <section class="bg-gray-100 dark:bg-gray-900 py-10 px-4 md:px-16"> <div class="max-w-6xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-10"> <span class="baslik mb-6 text-lg md:text-3xl font-bold text-center text-black dark:text-gray-200 relative uppercase baslik px-6"> <h2>Kullanım Koşulları</h2> </span> <h4 class="text-md md:text-lg font-bold text-gray-800 dark:text-gray-100 mb-6">Yayın Tarihi : 1 OCAK 2025</h4> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Bu web sitesini kullanarak aşağıda belirtilen kullanım koşullarını kabul etmiş sayılırsınız. Lütfen bu koşulları dikkatlice okuyunuz. Eğer bu koşulları kabul etmiyorsanız, lütfen web sitemizi kullanmayı durdurunuz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">Şartların Değiştirilmesi</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Şartları zaman zaman değiştirebiliriz. Değişiklikler yapıldığında, bu web sayfasında revize edilmiş sürümü kullanıma sunarak sizi bilgilendireceğiz ve bu sayfanın en üstünde revizyonların en son yapıldığı tarihi belirteceğiz.
+</p> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Tüm önemli değişiklikler yalnızca ileriye dönük olarak geçerli olacaktır. Revize edilmiş sürümler sizin için bağlayıcı olacağından, bu Şartları düzenli olarak tekrar ziyaret etmelisiniz.
+</p> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Bu tür değişiklikler, yeni Şartları yayınlamamız üzerine yürürlüğe girecektir. Şartlarda yayınlanan herhangi bir değişiklikten sonra Siteye erişiminizin veya Siteyi kullanımınızın devam etmesinin, değişikliği kabul ettiğiniz anlamına geldiğini anlıyor ve kabul ediyorsunuz.
+</p> </div> </section> <section class="bg-gray-100 dark:bg-gray-900 py-10 px-4 md:px-16"> <div class="max-w-6xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-10"> <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">1. Genel Şartlar</h2> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemiz, kullanıcılarımıza bilgi, içerik ve hizmet sağlamak amacıyla geliştirilmiştir. Web sitesini ziyaret eden tüm kullanıcılar, aşağıda belirtilen genel şartları kabul etmiş sayılır. Lütfen bu şartları dikkatlice okuyunuz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">1.1. Web Sitesinin Kullanım Amacı</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemiz, çeşitli konularda bilgi sunmak, kullanıcıların ihtiyaç duyduğu hizmetleri sağlamak ve onların etkileşimli bir deneyim yaşamasına olanak tanımak amacıyla tasarlanmıştır. Sitedeki içeriklere ve hizmetlere erişim, yalnızca bu kullanım koşullarına uygun şekilde gerçekleştirilmelidir.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">1.2. İçerik Hakları</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitesinde yer alan tüm içerik (yazılar, görseller, videolar, grafikler, tasarımlar, yazılımlar, logolar ve diğer materyaller) aksi belirtilmediği sürece tarafımıza aittir ve ulusal ve uluslararası telif hakkı yasaları kapsamında korunmaktadır.
+</p> <ul class="list-disc list-inside pl-4 text-gray-700 dark:text-gray-300 mb-4"> <li><strong>İzinsiz Kullanım:</strong> Sitedeki içeriklerin izinsiz olarak kopyalanması, çoğaltılması, yayınlanması veya ticari amaçlarla kullanılması yasaktır.</li> <li><strong>Kullanım İzni:</strong> İçeriklerimizin kullanımına ilişkin talepleriniz için bizimle iletişime geçebilirsiniz. Gerekli izinlerin alınması şartıyla içeriklerin belirli koşullarda kullanılmasına izin verilebilir.</li> </ul> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">1.3. Kullanım Şartlarının Kabulü</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitesini kullanarak aşağıdaki hususları kabul etmiş sayılırsınız:
+</p> <ul class="list-disc list-inside pl-4 text-gray-700 dark:text-gray-300 mb-4"> <li>Web sitesini yalnızca yasalara ve ahlaka uygun amaçlar doğrultusunda kullanacağınızı,</li> <li>Web sitesine zarar verebilecek veya işlevselliğini bozabilecek her türlü davranıştan kaçınacağınızı,</li> <li>Üçüncü tarafların haklarını ihlal etmeyeceğinizi.</li> </ul> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">1.4. İçeriğin Güncelliği ve Doğruluğu</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitesinde sunulan içerikler, mümkün olduğunca güncel ve doğru bilgiler sağlamak amacıyla düzenli olarak kontrol edilmektedir. Ancak, içeriklerde meydana gelebilecek hata, eksiklik veya yanlış bilgilerden dolayı tarafımız sorumlu tutulamaz. Kullanıcılar, web sitesinde yer alan bilgileri kendi sorumlulukları doğrultusunda kullanmalıdır.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">1.5. Erişim ve Kullanım Sınırları</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitesine erişim, genel kullanıma açık olmakla birlikte, belirli içeriklere veya hizmetlere erişim için üyelik veya kayıt gerekebilir. Aşağıdaki durumlarda erişiminiz sınırlandırılabilir veya engellenebilir:
+</p> <ul class="list-disc list-inside pl-4 text-gray-700 dark:text-gray-300 mb-4"> <li>Web sitesini kötü niyetle kullanma,</li> <li>Hizmetlerimize zarar verme girişimi,</li> <li>Diğer kullanıcıların deneyimini olumsuz etkileyen davranışlar.</li> </ul> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">1.6. Değişiklik Hakkı</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitesi ve bu genel şartlar üzerinde değişiklik yapma hakkımız saklıdır. Bu nedenle, kullanıcıların kullanım koşullarını düzenli olarak gözden geçirmesi önerilir. Şartlarda yapılan değişikliklerin ardından web sitesinin kullanılmaya devam edilmesi, değişikliklerin kabul edildiği anlamına gelir.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">1.7. Teknik Sorunlar ve Kesintiler</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitesinin kesintisiz ve hatasız çalışması için çaba gösterilmekle birlikte, teknik sorunlar nedeniyle oluşabilecek kesintilerden veya erişim sorunlarından sorumlu değiliz. Planlı bakım veya güncellemeler sırasında hizmetler geçici olarak devre dışı kalabilir.
+</p> </div> </section> <section class="bg-gray-100 dark:bg-gray-900 py-10 px-4 md:px-16"> <div class="max-w-6xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-10"> <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">2. Kullanıcı Sorumlulukları</h2> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemizi kullanırken, aşağıdaki sorumluluklara uymanız gerekmektedir:
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">2.1. Yasalara Uygunluk</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitesini yalnızca geçerli yasa ve düzenlemelere uygun bir şekilde kullanmanız gerekmektedir. Yasadışı faaliyetlerde bulunmak kesinlikle yasaktır ve gerekli durumlarda yetkili makamlara bildirim yapılacaktır.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">2.2. Ticari Kullanım</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemizde sunulan bilgiler ve içerikler yalnızca kişisel kullanımınıza yöneliktir. İçeriklerimizi iznimiz olmadan ticari amaçlarla çoğaltmak, satmak, paylaşmak veya başka bir şekilde kullanmak yasaktır. Kullanım izin talepleriniz için bizimle iletişime geçebilirsiniz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">2.3. Zarar Verici Faaliyetlerden Kaçınma</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemize zarar verebilecek herhangi bir işlemden kaçınmanız beklenmektedir. Aşağıdaki davranışlar kesinlikle yasaktır:
+</p> <ul class="list-disc list-inside pl-4 text-gray-700 dark:text-gray-300 mb-4"> <li>Sunucuya zarar verecek veya sistem performansını düşürecek zararlı yazılımlar yüklemek,</li> <li>Web sitesine aşırı yük bindirmek (örneğin, DDoS saldırıları),</li> <li>Yetkisiz erişim girişimlerinde bulunmak veya güvenlik açıklarını istismar etmek,</li> <li>Diğer kullanıcıların deneyimini olumsuz etkileyen davranışlarda bulunmak.</li> </ul> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">2.4. Diğer Kullanıcıların Haklarına Saygı</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemizi kullanırken, diğer kullanıcıların haklarına ve gizliliğine saygı göstermeniz gerekmektedir. Hiçbir şekilde diğer kullanıcıların bilgilerini izinsiz olarak toplama, kullanma veya paylaşma girişiminde bulunmayınız.
+</p> </div> </section> <section class="bg-gray-100 dark:bg-gray-900 py-10 px-4 md:px-16"> <div class="max-w-6xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-10"> <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">3. Fikri Mülkiyet Hakları</h2> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemizde bulunan tüm içerik, telif hakkı ve diğer fikri mülkiyet hakları kapsamında korunmaktadır. İçeriklerimiz, yasal düzenlemeler çerçevesinde korunmakta olup, izinsiz kullanım kesinlikle yasaktır.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">3.1. Telif Hakları</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemizdeki tüm metinler, görseller, videolar ve diğer içerikler tarafımıza ait olup, telif hakkı yasaları ile korunmaktadır. İçeriklerin izinsiz olarak kopyalanması, çoğaltılması veya paylaşılması yasaktır.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">3.2. Kullanım İzni</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemizdeki içeriklerin ticari veya kişisel amaçlarla kullanılabilmesi için önceden yazılı iznimiz alınmalıdır. Kullanım talepleriniz için lütfen bizimle iletişime geçiniz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">3.3. İhlal Durumları</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+İçeriklerimizin izinsiz kullanımı durumunda, telif hakkı ihlali nedeniyle hukuki işlem başlatma hakkımız saklıdır. Haklarımızın korunması amacıyla gerekli yasal yollara başvurulacaktır.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">3.4. Üçüncü Taraf İçerikleri</h3> <p class="text-gray-700 dark:text-gray-300">
+Web sitemizde yer alan ve üçüncü taraflara ait içerikler, ilgili sahiplerinin izniyle paylaşılmış olup, bu içeriklerin hakları ilgili taraflara aittir. Üçüncü taraf içeriklerin kullanımı ile ilgili hak sahipleri ile iletişime geçmeniz gerekmektedir.
+</p> </div> </section> <section class="bg-gray-100 dark:bg-gray-900 py-10 px-4 md:px-16"> <div class="max-w-6xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-10"> <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">4. Sorumluluğun Sınırlandırılması</h2> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitesinde yer alan bilgilerin doğruluğu ve güncelliği için çaba sarf edilmekle birlikte, herhangi bir hata, eksiklik veya yanlış bilgi nedeniyle ortaya çıkabilecek doğrudan veya dolaylı zararlardan sorumlu değiliz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">4.1. Bilgilerin Güncelliği</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitesinde yer alan bilgilerin güncel ve doğru olması için düzenli olarak kontroller yapılmaktadır. Ancak tüm bilgilerin güncelliği garanti edilememektedir.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">4.2. Doğrudan veya Dolaylı Zararlar</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitesinin kullanımı sırasında oluşabilecek herhangi bir teknik aksaklık, bilgi kaybı veya erişim sorunları nedeniyle ortaya çıkabilecek zararlar için tarafımız sorumlu tutulamaz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">4.3. Üçüncü Taraf Bağlantılar</h3> <p class="text-gray-700 dark:text-gray-300">
+Web sitesinde yer alan üçüncü taraf bağlantıları, kullanıcıların bilgisine sunulmaktadır. Bu bağlantılardan doğabilecek risklerden ve zararlardan tarafımız sorumlu değildir.
+</p> </div> </section> <section class="bg-gray-100 dark:bg-gray-900 py-10 px-4 md:px-16"> <div class="max-w-6xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-10"> <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">5. Üçüncü Taraf Bağlantılar</h2> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemizde, diğer web sitelerine yönlendiren bağlantılar bulunabilir. Bu bağlantılar, yalnızca bilgi sağlama amacıyla verilmiştir. Bağlantı verilen sitelerin içeriğinden sorumlu değiliz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">5.1. Bilgilendirme Amaçlı Bağlantılar</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Yönlendirdiğimiz üçüncü taraf bağlantıları, kullanıcılarımız için ek bilgi sağlama amacıyla eklenmiştir. Ancak bu bağlantılarda sunulan bilgilerin doğruluğu ve güvenilirliği garanti edilmez.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">5.2. Sorumluluk Reddi</h3> <p class="text-gray-700 dark:text-gray-300">
+Bağlantı verdiğimiz sitelerin içeriği ve politikaları üzerinde herhangi bir kontrolümüz bulunmamaktadır. Bu sitelerde yer alan bilgilerden veya doğabilecek herhangi bir sorundan dolayı sorumluluk kabul edilmez.
+</p> </div> </section> <section class="bg-gray-100 dark:bg-gray-900 py-10 px-4 md:px-16"> <div class="max-w-6xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-10"> <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">6. Gizlilik Politikası</h2> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Web sitemizi kullanımınız sırasında kişisel bilgilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında daha fazla bilgi için Gizlilik Politikası sayfamızı inceleyebilirsiniz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">6.1. Kişisel Bilgiler</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Kişisel bilgilerinizi yalnızca yasal çerçevede ve belirtilen amaçlarla topluyoruz. Web sitemizi kullanarak kişisel bilgilerinizi sağladığınızda, bu bilgilerin nasıl işlendiği hakkında detaylı bilgilere Gizlilik Politikası sayfamızdan ulaşabilirsiniz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">6.2. Verilerin Kullanımı</h3> <p class="text-gray-700 dark:text-gray-300 mb-4">
+Topladığımız kişisel bilgiler, yalnızca sitemizdeki hizmetleri sunmak, iyileştirmek ve güvenliği sağlamak için kullanılacaktır. Kişisel verilerinizin nasıl ve ne amaçla kullanıldığını öğrenmek için Gizlilik Politikası sayfamızı ziyaret edebilirsiniz.
+</p> <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-6">6.3. Verilerin Korunması</h3> <p class="text-gray-700 dark:text-gray-300">
+Kişisel bilgilerinizin güvenliğini sağlamak için gerekli önlemleri almakta kararlıyız. Verilerinizin korunmasına yönelik uyguladığımız güvenlik önlemleri hakkında daha fazla bilgi için Gizlilik Politikası sayfamızı kontrol edebilirsiniz.
+</p> </div> </section> <section class="bg-gray-100 dark:bg-gray-900 py-10 px-4 md:px-16"> <div class="max-w-6xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-10"> <p class="text-gray-700 dark:text-gray-300">
+Web sitemizi kullanarak, yukarıda belirtilen şartları kabul ettiğinizin farkında olmalısınız. Sitemizin sunduğu hizmetlerden faydalanırken belirtilen kurallara uymanız beklenmektedir. Herhangi bir sorun yaşamanız durumunda, bizlere ulaşabilirsiniz.
+</p> </div> </section> </section> ` })}`;
+}, "/var/www/html/bugunlerden/src/pages/kullanim-kosullari.astro", undefined);
+
+const $$file = "/var/www/html/bugunlerden/src/pages/kullanim-kosullari.astro";
+const $$url = "/kullanim-kosullari";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+    __proto__: null,
+    default: $$KullanimKosullari,
+    file: $$file,
+    url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };
