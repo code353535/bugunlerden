@@ -286,6 +286,7 @@ export const fetchCategori = async () => {
       categories {
         nodes {
           slug
+          name
           description
         }
       }
