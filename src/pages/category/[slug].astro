@@ -18,7 +18,7 @@ export async function getStaticPaths() {
   }));
 }
 
-const { slug, name } = Astro.params;
+const { slug } = Astro.params;
 
 
 let posts = [];
@@ -36,6 +36,7 @@ const currentCategory = categories.find(c => c.slug === slug);
 
 
 const categorydesc = currentCategory ? currentCategory.description : "Kategori açıklaması bulunamadı.";
+const name = currentCategory ? currentCategory.name : slug; // name parametresi eksikse slug'ı kullan
 
 const formattedPosts = posts.map((post) => ({
   ...post,
