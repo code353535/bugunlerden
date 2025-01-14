@@ -8,7 +8,7 @@
                 :src="post.imageUrl"
                 :alt="post.altText"
                 loading="lazy"
-                class="w-full h-[250px] md:h-[200px] object-cover transition-transform duration-500 group-hover:scale-105"
+                class="w-full object-cover object-center md:object-top max-h-[250px] min-h-[250px]transition-transform duration-500 group-hover:scale-105"
               />
             </a>
           </div>
