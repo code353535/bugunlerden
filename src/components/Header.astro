@@ -28,7 +28,7 @@ const categories = await fetchCategories();
 
     <!-- Categories -->
     <div class="basis-3/5 flex justify-center h-full">
-      <div class="flex text-lg space-x-3">
+      <div class="flex text-lg space-x-2">
         {categories.map((category) => (
           <div class="relative group flex items-center">
             <a href={`/category/${category.slug}`} class="flex items-center px-4 h-full text-[12px] baslik group-hover:text-red-600 font-bold uppercase text-black relative">
