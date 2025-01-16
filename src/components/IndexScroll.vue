@@ -31,9 +31,13 @@
                           class="w-6 h-6 rounded-full mr-2"
                         />
                         <div class="text-sm">
-                          <span class="block text-xs">
-                            <a :href="`/author/${post.authorId}`" class="olink">{{ post.author }}</a>
-                          </span>
+                          <span
+                          class="inline-block font-semibold hover:bg-red-500 dark:bg-[#212121] dark:hover:text-red-500 dark:text-gray-500 text-black hover:text-white bg-gray-200 px-1 py-1"
+                        >
+                          <NuxtLink :to="`/category/${post.categorySlug}`">
+                            {{ post.category }}
+                          </NuxtLink>
+                        </span>
                         </div>
                       </div>
                     </span>
