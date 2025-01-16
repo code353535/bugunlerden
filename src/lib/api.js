@@ -192,7 +192,7 @@ export async function getPostBySlug(slug) {
 export const fetchCategories = async () => {
   const query = `
     query GetCategories {
-      categories(where: { parent: 0 }) {
+      categories(where: { parent: 0 }, first: 100) {
         nodes {
           id
           name

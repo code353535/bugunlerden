@@ -88,7 +88,7 @@ const toggleMenu = () => {
 // WordPress'ten Kategorileri Getirme Fonksiyonu
 const fetchCategories = async () => {
   try {
-    const response = await fetch('https://bugunlerde.com/api/wordpress/wp-json/wp/v2/categories');
+    const response = await fetch('https://bugunlerde.com/api/wordpress/wp-json/wp/v2/categories?per_page=100');
     if (!response.ok) throw new Error('Kategoriler alınırken hata oluştu!');
     let allCategories = await response.json();
 
