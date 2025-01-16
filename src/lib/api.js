@@ -283,7 +283,7 @@ export const fetchPostsByCategory = async (slug) => {
 export const fetchCategori = async () => {
   const query =`
     query GetCategories {
-      categories {
+      categories(first: 100) {
         nodes {
           slug
           name
