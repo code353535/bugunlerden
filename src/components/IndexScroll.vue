@@ -34,9 +34,9 @@
                           <span
                           class="inline-block font-semibold hover:bg-red-500 dark:bg-[#212121] dark:hover:text-red-500 dark:text-gray-500 text-black hover:text-white bg-gray-200 px-1 py-1"
                         >
-                          <NuxtLink :to="`/category/${post.categorySlug}`">
+                          <a :href="`/category/${post.categorySlug}`">
                             {{ post.category }}
-                          </NuxtLink>
+                        </a>
                         </span>
                         </div>
                       </div>
