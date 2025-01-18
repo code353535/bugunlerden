@@ -14,7 +14,7 @@
   <script setup>
   import { ref, onMounted } from 'vue';
   
-  const showPopup = ref(true);
+  const showPopup = ref(false);
   
   // Haftalık onay kontrolü
   const checkConsent = () => {
@@ -28,14 +28,14 @@
       showPopup.value = false;
     }
   };
-  
-  // Sayfa yüklendiğinde, onay tarihini kontrol et
+ 
   onMounted(() => {
   setTimeout(() => {
+    showPopup.value = true;
     checkConsent();
-  }, 2000); 
+  }, 3000); // 3000 milisaniye = 3 saniye
 });
-  
+
   // Kullanıcı onayını kaydet
   const acceptConsent = () => {
     const currentDate = new Date();
