@@ -3,6 +3,8 @@ import { getAllPostSlugs, getPostBySlug, fetchRelatedPosts } from "../../lib/api
 import Layout from "../../layouts/layout.astro";
 import { Icon } from 'astro-icon/components';
 import { Image } from 'astro:assets';
+import { format } from 'date-fns';
+import { tr } from 'date-fns/locale';
 
 export async function getStaticPaths() {
   const posts = await getAllPostSlugs();
@@ -35,6 +37,9 @@ function calculateReadingTime(text) {
 const readingTime = calculateReadingTime(post.content);
 const relatedPosts = await fetchRelatedPosts(post.categorySlug, post.id);
 
+function formatDate(postDate) {
+  return format(new Date(postDate), 'dd.MM.yyyy', { locale: tr });
+}
 ---
 <Layout title={post.title} description={post.description} image={post.featuredImage.node.sourceUrl} uri={post.uri}>
   {post ? (
@@ -72,7 +77,7 @@ const relatedPosts = await fetchRelatedPosts(post.categorySlug, post.id);
           )}
         </div>
         <div class="text-xs flex items-center text-slate-900 dark:text-gray-200">
-          {new Date(post.date).toLocaleDateString()} | <Icon name="author" class="px-1 text-[24px] max-md:hidden"/> <a href={`/author/${post.authorId}`} class="max-md:hidden mr-1 olink">{post.author}</a> | <Icon name="reading" class="px-1 text-[24px]"/> {readingTime} dakika
+          {formatDate(post.date)} | <Icon name="author" class="px-1 text-[24px] max-md:hidden"/> <a href={`/author/${post.authorId}`} class="max-md:hidden mr-1 olink">{post.author}</a> | <Icon name="reading" class="px-1 text-[24px]"/> {readingTime} dakika
         </div>
       </div>
 
