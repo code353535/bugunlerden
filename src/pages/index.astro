@@ -24,8 +24,13 @@ const sortedPosts = posts
   .slice(0, 3);
 
   const dortluPosts = posts
+  .filter(post => {
+    const selectedCategory = post.categories?.nodes.find((cat) => cat.parentId) || post.categories.nodes[0];
+    // "Magazin" kategorisini hariç tutuyoruz
+    return selectedCategory && selectedCategory.name !== 'Magazin';
+  })
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  .slice(3, 7); 
+  .slice(3, 7);
 
   const altPosts = posts
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
