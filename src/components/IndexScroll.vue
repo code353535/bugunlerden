@@ -43,7 +43,7 @@
                     </span>
                   </div>
                   <!-- Tarih -->
-                  <p class="flex justify-center text-xs text-gray-500">
+                  <p class="flex justify-center text-xs font-normal text-gray-500">
                     {{ formatPostDate(post.date) }}
                   </p>
                 </div>
