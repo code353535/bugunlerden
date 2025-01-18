@@ -31,8 +31,10 @@
   
   // Sayfa yüklendiğinde, onay tarihini kontrol et
   onMounted(() => {
+  setTimeout(() => {
     checkConsent();
-  });
+  }, 2000); 
+});
   
   // Kullanıcı onayını kaydet
   const acceptConsent = () => {
