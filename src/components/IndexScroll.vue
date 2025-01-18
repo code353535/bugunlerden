@@ -185,7 +185,11 @@
               ? parseInt(atob(post.author?.node?.id).split(':')[1], 10)
               : null;
               const formattedDate = format(new Date(post.date), 'dd.MM.yyyy', { locale: tr });
-            const selectedCategory = post.categories?.nodes?.[0];
+              let selectedCategory = null;
+    if (post.categories?.nodes?.length > 0) {
+      selectedCategory = post.categories.nodes.find((cat) => cat.parentId) || post.categories.nodes[0];
+    }
+
             const categoryDescription = selectedCategory?.description || '';
             const categorySlug = selectedCategory?.slug || 'general';
       
