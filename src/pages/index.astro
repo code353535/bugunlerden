@@ -14,13 +14,15 @@ try {
   console.error('API error:', error);
 }
 
+const categoriler = ['film ve dizi', 'moda ve güzellik', 'tv programları', 'ümlüler ve yıldızlar'];
+
 const sortedPosts = posts
-  .filter(post => post.category === 'Magazin') 
+.filter(post => categoriler.includes(post.category))
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) 
   .slice(0, 3);
 
   const dortluPosts = posts
-  .filter(post => post.category !== 'Magazin')
+  .filter(post => !categoriler.includes(post.category))
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(3, 7); 
 
