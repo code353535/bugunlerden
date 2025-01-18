@@ -206,6 +206,7 @@
           authorId,
           formattedDate,
           author: post.author?.node?.name || 'Bilinmeyen',
+          authorAvatar: post.author?.node?.avatar?.url || null,
           categorydesc: categoryDescription,
           category: selectedCategory ? selectedCategory.name : 'Genel',
           categorySlug,
