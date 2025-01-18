@@ -40,7 +40,6 @@ const name = currentCategory ? currentCategory.name : slug; // name parametresi 
 const formattedPosts = posts.map((post) => ({
   ...post,
   formattedDate: format(new Date(post.date), 'dd.MM.yyyy', { locale: tr }),
-
   
 }));
 
