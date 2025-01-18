@@ -15,20 +15,21 @@ try {
 }
 
 const sortedPosts = posts
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .filter(post => post.category === 'magazin') 
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) 
   .slice(0, 3);
 
   const dortluPosts = posts
+  .filter(post => post.category !== 'magazin')
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(3, 7); 
 
-  const altPosts = posts
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  .slice(7, 15); 
+  const excludedPosts = [...sortedPosts, ...dortluPosts];
 
-  const postLinks = posts.slice(0, 5).map(post => 
-  `<a href="/post/${post.slug}" class="bg-black text-white hover:underline text-lg py-1 px-4 baslik">${post.title}</a>`
-).join(' - ');
+  const altPosts = posts
+  .filter(post => !excludedPosts.includes(post)) // Daha önce alınan gönderileri hariç tut
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 8);
 
   function truncateText(text, maxLength) {
   if (text.length > maxLength) {
