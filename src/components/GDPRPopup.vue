@@ -2,11 +2,10 @@
     <div v-if="showPopup" class="gdpr-popup">
       <div class="popup-content">
         <p class="popup-text">
-            Sitemizdeki deneyiminizi geliştirmek amacıyla veri toplamak için çerezleri (ve diğer benzer teknolojileri) kullanırız. Web sitemizi kullanarak, Gizlilik Politikamızda açıklanan şekilde veri toplanmasını kabul etmiş olursunuz.
+          Sitemizdeki deneyiminizi geliştirmek amacıyla veri toplamak için çerezleri (ve diğer benzer teknolojileri) kullanırız. Web sitemizi kullanarak, Gizlilik Politikamızda açıklanan şekilde veri toplanmasını kabul etmiş olursunuz.
         </p>
         <div class="buttons">
           <button @click="acceptConsent" class="accept-btn">Onayla</button>
-         
         </div>
       </div>
     </div>
@@ -17,22 +16,29 @@
   
   const showPopup = ref(true);
   
-  // Sayfa yüklendiğinde, çerez onayı kontrol et (sadece istemci tarafında çalışır)
-  onMounted(() => {
-    if (localStorage.getItem('gdprConsent') === 'accepted') {
+  // Haftalık onay kontrolü
+  const checkConsent = () => {
+    const storedConsentDate = localStorage.getItem('gdprConsentDate');
+    const currentDate = new Date();
+    
+    // Eğer onay tarihi yoksa veya bir haftadan eskiyse, popup'ı göster
+    if (!storedConsentDate || (currentDate - new Date(storedConsentDate)) > 7 * 24 * 60 * 60 * 1000) {
+      showPopup.value = true;
+    } else {
       showPopup.value = false;
     }
+  };
+  
+  // Sayfa yüklendiğinde, onay tarihini kontrol et
+  onMounted(() => {
+    checkConsent();
   });
   
   // Kullanıcı onayını kaydet
   const acceptConsent = () => {
+    const currentDate = new Date();
     localStorage.setItem('gdprConsent', 'accepted');
-    showPopup.value = false; // Popup'ı kapat
-  };
-  
-  // Kullanıcı reddettiğinde
-  const declineConsent = () => {
-    localStorage.setItem('gdprConsent', 'declined');
+    localStorage.setItem('gdprConsentDate', currentDate.toISOString()); // Onay tarihini kaydet
     showPopup.value = false; // Popup'ı kapat
   };
   </script>
@@ -42,12 +48,12 @@
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background-color: #d7b82b;
+    background-color: #fff;
     color: black;
     padding: 20px;
     text-align: center;
     z-index: 9999;
-    width: 80%;
+    width: 60%;
     max-width: 500px;
     border-radius: 2px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -102,4 +108,5 @@
     }
   }
   </style>
+  
   
