@@ -14,24 +14,21 @@ try {
   console.error('API error:', error);
 }
 
-const categoriler = ['film ve dizi', 'moda ve güzellik', 'tv programları', 'ümlüler ve yıldızlar'];
-
 const sortedPosts = posts
-.filter(post => categoriler.includes(post.category))
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) 
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(0, 3);
 
   const dortluPosts = posts
-  .filter(post => !categoriler.includes(post.category))
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(3, 7); 
 
-  const excludedPosts = [...sortedPosts, ...dortluPosts];
-
   const altPosts = posts
-  .filter(post => !excludedPosts.includes(post)) // Daha önce alınan gönderileri hariç tut
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  .slice(0, 8);
+  .slice(7, 15); 
+
+  const postLinks = posts.slice(0, 5).map(post => 
+  `<a href="/post/${post.slug}" class="bg-black text-white hover:underline text-lg py-1 px-4 baslik">${post.title}</a>`
+).join(' - ');
 
   function truncateText(text, maxLength) {
   if (text.length > maxLength) {
