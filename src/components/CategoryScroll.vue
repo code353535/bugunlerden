@@ -88,7 +88,7 @@
   <script setup>
   import { ref, computed, onMounted } from 'vue';
   import axios from 'axios';
-  import { formatDistanceToNow } from 'date-fns';
+  import { format } from 'date-fns';
   import { tr } from 'date-fns/locale';
   
   const props = defineProps({
