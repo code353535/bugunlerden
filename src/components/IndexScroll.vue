@@ -29,7 +29,7 @@
                     class="w-6 h-6 rounded-full mr-2"
                   />
                   <div class="text-sm">
-                    <span class="inline-block font-semibold hover:bg-red-500 dark:bg-[#212121] dark:hover:text-red-500 dark:text-gray-500  hover:text-white bg-gray-200 px-1 py-1">
+                    <span class="inline-block font-semibold text-black text-xs hover:bg-red-500 dark:bg-[#212121] dark:hover:text-red-500 dark:text-gray-500  hover:text-white bg-gray-200 px-1 py-1">
                       <a :href="`/category/${post.categorySlug}`">
                         {{ post.category }}
                       </a>
@@ -38,7 +38,7 @@
                 </div>
               </span>
             </div>
-            <p class="flex justify-center font-black text-xs text-gray-500">
+            <p class="flex justify-center text-xs text-gray-500">
               {{ post.formattedDate }}
             </p>
           </div>
