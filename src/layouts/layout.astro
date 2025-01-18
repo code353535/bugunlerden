@@ -3,7 +3,7 @@ import '../styles/base.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import GoogleAnalytics  from '../components/GoogleAnalytics.astro';
-
+import GDPRPopup from '../components/GDPRPopup.vue';
 
 // Layout için dinamik meta bilgileri alın
 const { title, description, slug, image } = Astro.props;
@@ -52,6 +52,7 @@ const { title, description, slug, image } = Astro.props;
     </div>
     <Footer />
   </div>
+  <GDPRPopup client:load />
   </body>
   </html>
   
