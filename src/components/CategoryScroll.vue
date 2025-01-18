@@ -193,7 +193,7 @@
         const authorId = post.author?.node?.id
           ? parseInt(atob(post.author?.node?.id).split(':')[1], 10)
           : null;
-        const formattedDate = formatDistanceToNow(new Date(post.date), { addSuffix: true, locale: tr });
+          const formattedDate = format(new Date(post.date), 'MMMM dd, yyyy', { locale: tr });
         const selectedCategory = post.categories?.nodes?.[0];
         const categoryDescription = selectedCategory?.description || '';
         const categorySlug = selectedCategory?.slug || 'general';
