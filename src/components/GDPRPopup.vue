@@ -33,7 +33,7 @@
   setTimeout(() => {
     showPopup.value = true;
     checkConsent();
-  }, 3000); // 3000 milisaniye = 3 saniye
+  }, 2000);
 });
 
   // Kullanıcı onayını kaydet
@@ -50,8 +50,8 @@
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background-color: #fff;
-    color: black;
+    background-color: #000;
+    color: white;
     padding: 20px;
     text-align: center;
     z-index: 9999;
@@ -91,12 +91,8 @@
   }
   
   .accept-btn {
-    background-color: #000000;
-    color: white;
-  }
-  
-  .accept-btn:hover {
-    background-color: #141414;
+    background-color: #d7b82b;
+    color: black;
   }
   
   @keyframes slideUp {
