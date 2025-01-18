@@ -44,7 +44,7 @@
                   </div>
                   <!-- Tarih -->
                   <p class="flex justify-center text-xs font-normal text-gray-500">
-                    {{ formatPostDate(post.date) }}
+                    {{ post.formattedDate }}
                   </p>
                 </div>
                 <div class="max-md:hidden absolute bottom-0 left-0 w-full h-full pointer-events-none">
@@ -188,7 +188,7 @@
             const authorId = post.author?.node?.id
               ? parseInt(atob(post.author?.node?.id).split(':')[1], 10)
               : null;
-            
+              const formattedDate = format(new Date(post.date), 'dd.MM.yyyy', { locale: tr });
             const selectedCategory = post.categories?.nodes?.[0];
             const categoryDescription = selectedCategory?.description || '';
             const categorySlug = selectedCategory?.slug || 'general';
