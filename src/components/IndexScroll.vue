@@ -89,10 +89,6 @@
       import axios from 'axios';
       import { format } from 'date-fns';
       import { tr } from 'date-fns/locale';
-      
-      const formatPostDate = (date) => {
-  return format(new Date(date), 'dd.MM.yyyy', { locale: tr }); // 'dd.MM.yyyy' formatında döndürür
-};
 
       const truncateText = (text, length) => {
       if (!text) return '';
