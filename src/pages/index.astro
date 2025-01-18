@@ -15,12 +15,12 @@ try {
 }
 
 const sortedPosts = posts
-  .filter(post => post.category === 'magazin') 
+  .filter(post => post.category === 'Magazin') 
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) 
   .slice(0, 3);
 
   const dortluPosts = posts
-  .filter(post => post.category !== 'magazin')
+  .filter(post => post.category !== 'Magazin')
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(3, 7); 
 
