@@ -38,7 +38,7 @@
                 </div>
               </span>
             </div>
-            <p class="flex justify-center text-xs text-gray-500">
+            <p class="flex justify-center font-black text-xs text-gray-500">
               {{ post.formattedDate }}
             </p>
           </div>
