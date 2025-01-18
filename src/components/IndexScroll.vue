@@ -191,8 +191,8 @@
     }
 
             const categoryDescription = selectedCategory?.description || '';
-            const categorySlug = selectedCategory?.slug || 'general';
-      
+            const categorySlug = selectedCategory ? selectedCategory.slug : 'genel';
+            
             return {
               ...post,
               imageUrl: post.featuredImage?.node?.sourceUrl || null,
