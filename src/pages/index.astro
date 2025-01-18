@@ -16,25 +16,30 @@ try {
 
 const sortedPosts = posts
   .filter(post => {
-    // Ana kategori "Magazin" olmalı
-    const selectedCategory = post.categories?.nodes.find((cat) => cat.parentId) || post.categories.nodes[0];
-    return selectedCategory && selectedCategory.name === 'Magazin';
+    // Kategorilerde parentId'si null olanları ve "Magazin" olanı seçiyoruz
+    const selectedCategory = post.categories?.nodes.find((cat) => cat.parentId === null && cat.name === 'Magazin') || post.categories.nodes[0];
+    return selectedCategory && selectedCategory.name.trim().toLowerCase() === 'magazin';
   })
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(0, 3);
 
   const dortluPosts = posts
   .filter(post => {
-    const selectedCategory = post.categories?.nodes.find((cat) => cat.parentId) || post.categories.nodes[0];
-    // "Magazin" kategorisini hariç tutuyoruz
-    return selectedCategory && selectedCategory.name !== 'Magazin';
+    const selectedCategory = post.categories?.nodes.find((cat) => cat.parentId === null && cat.name === 'Magazin') || post.categories.nodes[0];
+    return selectedCategory && selectedCategory.name.trim().toLowerCase() !== 'magazin';
   })
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  .slice(3, 7);
+  .slice(0, 4);
 
   const altPosts = posts
+  .filter(post => {
+    const selectedCategory = post.categories?.nodes.find((cat) => cat.parentId === null && cat.name === 'Magazin') || post.categories.nodes[0];
+
+    return !sortedPosts.some(sortedPost => sortedPost.id === post.id) && 
+           !dortluPosts.some(dortluPost => dortluPost.id === post.id);
+  })
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  .slice(7, 15); 
+  .slice(0, 8);
 
 
   function truncateText(text, maxLength) {
