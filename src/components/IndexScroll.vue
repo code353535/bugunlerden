@@ -32,7 +32,7 @@
                         />
                         <div class="text-sm">
                           <span
-                          class="inline-block font-semibold hover:bg-red-500 dark:bg-[#212121] dark:hover:text-red-500 dark:text-gray-500 text-black hover:text-white bg-gray-200 px-1 py-1"
+                          class="inline-block font-semibold hover:bg-red-500 dark:bg-[#212121] dark:hover:text-red-500 dark:text-gray-500  hover:text-white bg-gray-200 px-1 py-1"
                         >
                           <a :href="`/category/${post.categorySlug}`">
                             {{ post.category }}
@@ -43,7 +43,7 @@
                     </span>
                   </div>
                   <!-- Tarih -->
-                  <p class="flex justify-center text-xs font-normal text-gray-500">
+                  <p class="flex justify-center text-xs text-gray-500">
                     {{ post.formattedDate }}
                   </p>
                 </div>
