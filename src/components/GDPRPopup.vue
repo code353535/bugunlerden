@@ -49,12 +49,13 @@
   .gdpr-popup {
     position: fixed;
     bottom: 20px;
-    left: 20px;
+    right: 20px;
     background-color: #000;
     color: white;
     padding: 20px;
     text-align: center;
     z-index: 9999;
+    opacity: 0.9;
     width: 60%;
     max-width: 500px;
     border-radius: 2px;
