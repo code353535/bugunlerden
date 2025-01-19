@@ -25,3 +25,236 @@ Astro.js build işlemi başlıyor...
 Build işlemi tamamlandı.
 Dosya işlemleri başlıyor...
 Dosya işlemleri tamamlandı.
+Webhook sunucusu çalışıyor: http://localhost:3000
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build tamamlandı:
+ 
+> astrovue@1.0.0 build
+> astro build
+
+10:24:23 [content] Syncing content
+10:24:23 [content] Synced content
+10:24:23 [types] Generated 69ms
+10:24:23 [build] output: "static"
+10:24:23 [build] directory: /var/www/html/bugunlerden/temp/
+10:24:23 [build] Collecting build info...
+10:24:23 [build] ✓ Completed in 151ms.
+10:24:23 [build] Building static entrypoints...
+10:24:27 [astro-icon] Loaded icons from src/icons
+10:24:28 [vite] ✓ built in 4.87s
+10:24:28 [build] ✓ Completed in 4.92s.
+
+ building client (vite) 
+10:24:28 [vite] transforming...
+10:24:31 [vite] ✓ 903 modules transformed.
+10:24:32 [vite] rendering chunks...
+10:24:32 [vite] computing gzip size...
+10:24:32 [vite] temp/_astro/index.tn0RQdqM.css                      0.00 kB │ gzip:  0.02 kB
+10:24:32 [vite] temp/_astro/_id_.CP6s6vAQ.css                       1.76 kB │ gzip:  0.63 kB
+10:24:32 [vite] temp/_astro/_plugin-vue_export-helper.DlAUqK2U.js   0.09 kB │ gzip:  0.10 kB
+10:24:32 [vite] temp/_astro/client.0dl6PZEk.js                      1.04 kB │ gzip:  0.64 kB
+10:24:32 [vite] temp/_astro/GDPRPopup.CcLtxph8.js                   1.29 kB │ gzip:  0.81 kB
+10:24:32 [vite] temp/_astro/ScrollProgress.E8n0kJbD.js              1.44 kB │ gzip:  0.78 kB
+10:24:32 [vite] temp/_astro/page.D2ytOAYA.js                        2.17 kB │ gzip:  0.97 kB
+10:24:32 [vite] temp/_astro/MobileMenu.BLw54IPl.js                  3.93 kB │ gzip:  1.86 kB
+10:24:32 [vite] temp/_astro/IndexScroll.D_bBXwNo.js                 5.29 kB │ gzip:  2.31 kB
+10:24:32 [vite] temp/_astro/CategoryScroll.CWxQDWRB.js              6.50 kB │ gzip:  2.55 kB
+10:24:32 [vite] temp/_astro/AuthorScroll.RgSSpCIY.js                7.29 kB │ gzip:  2.91 kB
+10:24:32 [vite] temp/_astro/runtime-dom.esm-bundler.VVbNyDLO.js     9.35 kB │ gzip:  4.20 kB
+10:24:32 [vite] temp/_astro/format.SZS6x4ez.js                     12.39 kB │ gzip:  3.31 kB
+10:24:32 [vite] temp/_astro/tr.CGlVPdZX.js                         48.17 kB │ gzip: 18.22 kB
+10:24:32 [vite] temp/_astro/runtime-core.esm-bundler.BMTxGt4Q.js   65.94 kB │ gzip: 26.14 kB
+10:24:32 [vite] ✓ built in 3.82s
+
+ generating static routes 
+10:24:32 ▶ src/pages/404.astro
+10:24:32   └─ /404.html (+9ms) 
+10:24:32 ▶ src/pages/author/[id].astro
+10:24:33   └─ /author/1/index.html (+664ms) 
+10:24:33 ▶ src/pages/category/[slug].astro
+10:24:33   ├─ /category/gundem/index.html (+504ms) 
+10:24:34   ├─ /category/film-ve-dizi/index.html (+752ms) 
+10:24:35   ├─ /category/magazin/index.html (+668ms) 
+10:24:35   ├─ /category/mobil-teknoloji/index.html (+521ms) 
+10:24:36   ├─ /category/moda-ve-guzellik/index.html (+574ms) 
+10:24:36   ├─ /category/sosyal-medya/index.html (+492ms) 
+10:24:37   ├─ /category/tarih/index.html (+479ms) 
+10:24:37   ├─ /category/teknoloji/index.html (+560ms) 
+10:24:38   ├─ /category/tv-programlari/index.html (+499ms) 
+10:24:38   ├─ /category/unluler-ve-yildizlar/index.html (+672ms) 
+10:24:39   ├─ /category/uygulamalar/index.html (+489ms) 
+10:24:40   └─ /category/yapay-zeka/index.html (+511ms) 
+10:24:40 ▶ src/pages/gizlilik-politikasi.astro
+10:24:40   └─ /gizlilik-politikasi/index.html (+176ms) 
+10:24:40 ▶ src/pages/hakkimizda.astro
+10:24:40   └─ /hakkimizda/index.html (+144ms) 
+10:24:40 ▶ src/pages/kullanim-kosullari.astro
+10:24:40   └─ /kullanim-kosullari/index.html (+163ms) 
+10:24:41 ▶ src/pages/post/[slug].astro
+10:24:41   ├─ /post/joy-awards-2025-gecesinden-ozel-detaylar-tuba-buyukustun-sahneye-cikti/index.html (+912ms) 
+10:24:42   ├─ /post/applein-yapay-zekasi-kontrolden-cikti-apple-intelligence-bildirim-ozetleri-kapatiliyor/index.html (+926ms) 
+10:24:43   ├─ /post/cameron-diaz-10-yil-sonra-back-in-action-ile-geri-dondu/index.html (+1.16s) 
+10:24:44   ├─ /post/melisa-dongel-8-aile-dizisinin-kadrosunda/index.html (+949ms) 
+10:24:45   ├─ /post/reza-zarrab-ve-dilara-altintop-miamide-evlendi/index.html (+943ms) 
+10:24:46   ├─ /post/masterchef-jurisi-somer-sivrioglu-ve-ayse-ozyilmazel-yeniden-baristi/index.html (+972ms) 
+10:24:47   ├─ /post/seyma-subasi-bir-kere-asik-oldum/index.html (+911ms) 
+10:24:48   ├─ /post/chatgpt-artik-gunluk-tekrar-eden-gorevleri-ustleniyor/index.html (+976ms) 
+10:24:49   ├─ /post/kral-kaybederse-merakla-beklenen-yeni-dizi-geliyor/index.html (+1.25s) 
+10:24:50   ├─ /post/zahide-yetis-canli-yayinda-cinsel-iliski-videosu-izletti/index.html (+998ms) 
+10:24:51   ├─ /post/bill-gatesin-en-buyuk-hatasi-400-milyar-dolarlik-firsatin-kacirilmasi/index.html (+1.02s) 
+10:24:52   ├─ /post/elon-muskin-tiktok-ile-ilgilendigi-yonunde-spekulasyonlar-var/index.html (+879ms) 
+10:24:53   ├─ /post/burak-ozcivit-ve-fayriye-evcen-joy-awards-yolcusu/index.html (+928ms) 
+10:24:54   ├─ /post/honorun-yeni-amiral-gemisi-magic-7-pro-avrupada-satisa-sunuldu/index.html (+958ms) 
+10:24:55   ├─ /post/sofia-vergara-ve-lewis-hamilton-2025in-ilk-surpriz-cifti-mi/index.html (+1.04s) 
+10:24:56   ├─ /post/reza-zarrab-ve-dilara-altintop-miamide-evleniyor/index.html (+988ms) 
+10:24:57   ├─ /post/ceyda-duvenci-sevgilisi-guclu-mete-ile-nisanlandi-mi/index.html (+938ms) 
+10:24:58   ├─ /post/million-gold-for-her-parfumunun-buyuleyici-kokusu/index.html (+1.00s) 
+10:24:59   ├─ /post/merve-dizdar-fransadan-edebiyat-ve-sanat-sovalyesi-unvanina-layik-goruldu/index.html (+977ms) 
+10:24:59   ├─ /post/hadiseden-ask-dolu-paylasim-yeni-iliskisini-resmen-ilan-etti/index.html (+961ms) 
+10:25:00   ├─ /post/biz-mi-egleniyoruz-yoksa-onlar-mi-kazaniyor/index.html (+929ms) 
+10:25:01   ├─ /post/yanginda-mal-canin-reklamidir-los-angelesin-unlu-evlerinden-yukselen-duman-ve-pr-firsatlari/index.html (+976ms) 
+10:25:02   ├─ /post/orumcekler-neden-biz-uyurken-agzimiza-surunurler/index.html (+1.02s) 
+10:25:03   ├─ /post/cagla-sikel-yeni-sevgilisi-ile-tekrar-yakalandi/index.html (+1.02s) 
+10:25:04   ├─ /post/guzide-duran-okan-buruk-ile-ask-iddialarina-yanit-verdi/index.html (+951ms) 
+10:25:05   ├─ /post/serenay-sarikaya-ve-mert-demir-reklam-aski-iddialari-uzerine-ifade-verecek/index.html (+929ms) 
+10:25:06   ├─ /post/masterchef-turkiye-2024-finali-onur-vs-kerem/index.html (+945ms) 
+10:25:07   ├─ /post/2025in-heyecanla-beklenen-5-filmi/index.html (+1.08s) 
+10:25:08   ├─ /post/iphone-17-air-ultra-ince-bir-tasarima-sahip-olacak/index.html (+900ms) 
+10:25:09   ├─ /post/su-ile-calisan-arabalar-teknolojinin-gelecegi-mi/index.html (+915ms) 
+10:25:10   ├─ /post/bepicolombodan-merkurun-son-goruntuleri/index.html (+941ms) 
+10:25:11   ├─ /post/samsung-22-ocak-2025-tarihinde-galaxy-s25-serisini-tanitmaya-hazirlaniyor/index.html (+952ms) 
+10:25:12   ├─ /post/meta-yapay-zeka-modellerini-egitmek-icin-telif-hakkiyla-korunan-kitaplarin-korsan-versiyonlarini-kullandi-mi/index.html (+878ms) 
+10:25:13   ├─ /post/masterchef-turkiye-2024de-ikinci-finalist-bu-aksam-belli-oluyor/index.html (+911ms) 
+10:25:14   ├─ /post/bella-hadid-ailesinin-yanan-evi-icin-tepki-gosterdi/index.html (+959ms) 
+10:25:15   ├─ /post/aubrey-plazanin-kocasi-jeff-baenanin-olum-nedeni-aciklandi/index.html (+955ms) 
+10:25:16   ├─ /post/zendaya-ve-tom-holland-nisan-soylentileri-gercek-mi/index.html (+908ms) 
+10:25:17   └─ /post/squid-game-2-sezonu-ile-netflixde-izlenme-rekoru-kirdi/index.html (+911ms) 
+10:25:18 ▶ src/pages/reklam.astro
+10:25:18   └─ /reklam/index.html (+161ms) 
+10:25:18 ▶ src/pages/index.astro
+10:25:18   └─ /index.html (+929ms) 
+10:25:19 ✓ Completed in 46.74s.
+
+10:25:19 [@astrojs/sitemap] `sitemap-index.xml` created at `temp`
+10:25:19 [build] 57 page(s) built in 55.68s
+10:25:19 [build] Complete!
+
+Dosya işlemleri başlıyor...
+Dosya işlemleri tamamlandı.
+Webhook tetiklendi: Yeni yazı oluşturuldu.
+Astro.js build işlemi başlıyor...
+Build tamamlandı:
+ 
+> astrovue@1.0.0 build
+> astro build
+
+10:25:22 [content] Syncing content
+10:25:22 [content] Synced content
+10:25:22 [types] Generated 68ms
+10:25:22 [build] output: "static"
+10:25:22 [build] directory: /var/www/html/bugunlerden/temp/
+10:25:22 [build] Collecting build info...
+10:25:22 [build] ✓ Completed in 151ms.
+10:25:22 [build] Building static entrypoints...
+10:25:26 [astro-icon] Loaded icons from src/icons
+10:25:26 [vite] ✓ built in 4.72s
+10:25:26 [build] ✓ Completed in 4.79s.
+
+ building client (vite) 
+10:25:26 [vite] transforming...
+10:25:30 [vite] ✓ 903 modules transformed.
+10:25:30 [vite] rendering chunks...
+10:25:30 [vite] computing gzip size...
+10:25:30 [vite] temp/_astro/index.tn0RQdqM.css                      0.00 kB │ gzip:  0.02 kB
+10:25:30 [vite] temp/_astro/_id_.CP6s6vAQ.css                       1.76 kB │ gzip:  0.63 kB
+10:25:30 [vite] temp/_astro/_plugin-vue_export-helper.DlAUqK2U.js   0.09 kB │ gzip:  0.10 kB
+10:25:30 [vite] temp/_astro/client.0dl6PZEk.js                      1.04 kB │ gzip:  0.64 kB
+10:25:30 [vite] temp/_astro/GDPRPopup.CcLtxph8.js                   1.29 kB │ gzip:  0.81 kB
+10:25:30 [vite] temp/_astro/ScrollProgress.E8n0kJbD.js              1.44 kB │ gzip:  0.78 kB
+10:25:30 [vite] temp/_astro/page.D2ytOAYA.js                        2.17 kB │ gzip:  0.97 kB
+10:25:30 [vite] temp/_astro/MobileMenu.BLw54IPl.js                  3.93 kB │ gzip:  1.86 kB
+10:25:30 [vite] temp/_astro/IndexScroll.D_bBXwNo.js                 5.29 kB │ gzip:  2.31 kB
+10:25:30 [vite] temp/_astro/CategoryScroll.CWxQDWRB.js              6.50 kB │ gzip:  2.55 kB
+10:25:30 [vite] temp/_astro/AuthorScroll.RgSSpCIY.js                7.29 kB │ gzip:  2.91 kB
+10:25:30 [vite] temp/_astro/runtime-dom.esm-bundler.VVbNyDLO.js     9.35 kB │ gzip:  4.20 kB
+10:25:30 [vite] temp/_astro/format.SZS6x4ez.js                     12.39 kB │ gzip:  3.31 kB
+10:25:30 [vite] temp/_astro/tr.CGlVPdZX.js                         48.17 kB │ gzip: 18.22 kB
+10:25:30 [vite] temp/_astro/runtime-core.esm-bundler.BMTxGt4Q.js   65.94 kB │ gzip: 26.14 kB
+10:25:30 [vite] ✓ built in 3.78s
+
+ generating static routes 
+10:25:30 ▶ src/pages/404.astro
+10:25:30   └─ /404.html (+9ms) 
+10:25:31 ▶ src/pages/author/[id].astro
+10:25:31   └─ /author/1/index.html (+719ms) 
+10:25:32 ▶ src/pages/category/[slug].astro
+10:25:32   ├─ /category/gundem/index.html (+602ms) 
+10:25:32   ├─ /category/film-ve-dizi/index.html (+821ms) 
+10:25:33   ├─ /category/magazin/index.html (+667ms) 
+10:25:34   ├─ /category/mobil-teknoloji/index.html (+545ms) 
+10:25:34   ├─ /category/moda-ve-guzellik/index.html (+475ms) 
+10:25:35   ├─ /category/sosyal-medya/index.html (+504ms) 
+10:25:35   ├─ /category/tarih/index.html (+493ms) 
+10:25:36   ├─ /category/teknoloji/index.html (+569ms) 
+10:25:36   ├─ /category/tv-programlari/index.html (+528ms) 
+10:25:37   ├─ /category/unluler-ve-yildizlar/index.html (+652ms) 
+10:25:38   ├─ /category/uygulamalar/index.html (+474ms) 
+10:25:38   └─ /category/yapay-zeka/index.html (+521ms) 
+10:25:39 ▶ src/pages/gizlilik-politikasi.astro
+10:25:39   └─ /gizlilik-politikasi/index.html (+179ms) 
+10:25:39 ▶ src/pages/hakkimizda.astro
+10:25:39   └─ /hakkimizda/index.html (+167ms) 
+10:25:39 ▶ src/pages/kullanim-kosullari.astro
+10:25:39   └─ /kullanim-kosullari/index.html (+168ms) 
+10:25:39 ▶ src/pages/post/[slug].astro
+10:25:39   ├─ /post/joy-awards-2025-gecesinden-ozel-detaylar-tuba-buyukustun-sahneye-cikti/index.html (+938ms) 
+10:25:40   ├─ /post/applein-yapay-zekasi-kontrolden-cikti-apple-intelligence-bildirim-ozetleri-kapatiliyor/index.html (+962ms) 
+10:25:41   ├─ /post/cameron-diaz-10-yil-sonra-back-in-action-ile-geri-dondu/index.html (+1.17s) 
+10:25:42   ├─ /post/melisa-dongel-8-aile-dizisinin-kadrosunda/index.html (+939ms) 
+10:25:43   ├─ /post/reza-zarrab-ve-dilara-altintop-miamide-evlendi/index.html (+972ms) 
+10:25:44   ├─ /post/masterchef-jurisi-somer-sivrioglu-ve-ayse-ozyilmazel-yeniden-baristi/index.html (+971ms) 
+10:25:45   ├─ /post/seyma-subasi-bir-kere-asik-oldum/index.html (+985ms) 
+10:25:46   ├─ /post/chatgpt-artik-gunluk-tekrar-eden-gorevleri-ustleniyor/index.html (+959ms) 
+10:25:47   ├─ /post/kral-kaybederse-merakla-beklenen-yeni-dizi-geliyor/index.html (+1.10s) 
+10:25:48   ├─ /post/zahide-yetis-canli-yayinda-cinsel-iliski-videosu-izletti/index.html (+922ms) 
+10:25:49   ├─ /post/bill-gatesin-en-buyuk-hatasi-400-milyar-dolarlik-firsatin-kacirilmasi/index.html (+959ms) 
+10:25:50   ├─ /post/elon-muskin-tiktok-ile-ilgilendigi-yonunde-spekulasyonlar-var/index.html (+885ms) 
+10:25:51   ├─ /post/burak-ozcivit-ve-fayriye-evcen-joy-awards-yolcusu/index.html (+964ms) 
+10:25:52   ├─ /post/honorun-yeni-amiral-gemisi-magic-7-pro-avrupada-satisa-sunuldu/index.html (+914ms) 
+10:25:53   ├─ /post/sofia-vergara-ve-lewis-hamilton-2025in-ilk-surpriz-cifti-mi/index.html (+887ms) 
+10:25:54   ├─ /post/reza-zarrab-ve-dilara-altintop-miamide-evleniyor/index.html (+926ms) 
+10:25:55   ├─ /post/ceyda-duvenci-sevgilisi-guclu-mete-ile-nisanlandi-mi/index.html (+979ms) 
+10:25:56   ├─ /post/million-gold-for-her-parfumunun-buyuleyici-kokusu/index.html (+897ms) 
+10:25:57   ├─ /post/merve-dizdar-fransadan-edebiyat-ve-sanat-sovalyesi-unvanina-layik-goruldu/index.html (+886ms) 
+10:25:57   ├─ /post/hadiseden-ask-dolu-paylasim-yeni-iliskisini-resmen-ilan-etti/index.html (+914ms) 
+10:25:58   ├─ /post/biz-mi-egleniyoruz-yoksa-onlar-mi-kazaniyor/index.html (+866ms) 
+10:25:59   ├─ /post/yanginda-mal-canin-reklamidir-los-angelesin-unlu-evlerinden-yukselen-duman-ve-pr-firsatlari/index.html (+898ms) 
+10:26:00   ├─ /post/orumcekler-neden-biz-uyurken-agzimiza-surunurler/index.html (+929ms) 
+10:26:01   ├─ /post/cagla-sikel-yeni-sevgilisi-ile-tekrar-yakalandi/index.html (+963ms) 
+10:26:02   ├─ /post/guzide-duran-okan-buruk-ile-ask-iddialarina-yanit-verdi/index.html (+908ms) 
+10:26:03   ├─ /post/serenay-sarikaya-ve-mert-demir-reklam-aski-iddialari-uzerine-ifade-verecek/index.html (+984ms) 
+10:26:04   ├─ /post/masterchef-turkiye-2024-finali-onur-vs-kerem/index.html (+996ms) 
+10:26:05   ├─ /post/2025in-heyecanla-beklenen-5-filmi/index.html (+1.15s) 
+10:26:06   ├─ /post/iphone-17-air-ultra-ince-bir-tasarima-sahip-olacak/index.html (+928ms) 
+10:26:07   ├─ /post/su-ile-calisan-arabalar-teknolojinin-gelecegi-mi/index.html (+918ms) 
+10:26:08   ├─ /post/bepicolombodan-merkurun-son-goruntuleri/index.html (+880ms) 
+10:26:09   ├─ /post/samsung-22-ocak-2025-tarihinde-galaxy-s25-serisini-tanitmaya-hazirlaniyor/index.html (+894ms) 
+10:26:10   ├─ /post/meta-yapay-zeka-modellerini-egitmek-icin-telif-hakkiyla-korunan-kitaplarin-korsan-versiyonlarini-kullandi-mi/index.html (+919ms) 
+10:26:11   ├─ /post/masterchef-turkiye-2024de-ikinci-finalist-bu-aksam-belli-oluyor/index.html (+919ms) 
+10:26:12   ├─ /post/bella-hadid-ailesinin-yanan-evi-icin-tepki-gosterdi/index.html (+960ms) 
+10:26:13   ├─ /post/aubrey-plazanin-kocasi-jeff-baenanin-olum-nedeni-aciklandi/index.html (+935ms) 
+10:26:13   ├─ /post/zendaya-ve-tom-holland-nisan-soylentileri-gercek-mi/index.html (+882ms) 
+10:26:14   └─ /post/squid-game-2-sezonu-ile-netflixde-izlenme-rekoru-kirdi/index.html (+932ms) 
+10:26:15 ▶ src/pages/reklam.astro
+10:26:15   └─ /reklam/index.html (+158ms) 
+10:26:15 ▶ src/pages/index.astro
+10:26:15   └─ /index.html (+1.05s) 
+10:26:17 ✓ Completed in 46.31s.
+
+10:26:17 [@astrojs/sitemap] `sitemap-index.xml` created at `temp`
+10:26:17 [build] 57 page(s) built in 55.09s
+10:26:17 [build] Complete!
+
+Dosya işlemleri başlıyor...
+Dosya işlemleri tamamlandı.
