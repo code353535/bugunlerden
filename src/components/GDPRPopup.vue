@@ -62,7 +62,13 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     animation: slideUp 1s ease-in-out;
   }
-
+  @media (max-width: 768px) {
+    .gdpr-popup {
+      width: 100%; /* Set to 100% width on mobile devices */
+      left: 0; /* Ensure the popup is aligned with the left edge */
+      right: 0; /* Ensure the popup is aligned with the right edge */
+    }
+  }
   .popup-content {
     display: flex;
     flex-direction: column;
