@@ -117,7 +117,7 @@ function truncateText(text, maxLength) {
       {remainingPosts.length === 0 ? (
        <div class="flex flex-col justify-center items-center mt-8">
        <span class="text-xl font-bold baslik text-red-500">Daha fazlası çok yakında...</span>
-       <h3 class="px-4 text-[12px] font-thin text-black dark:text-white tracking-widest baslik">{slug} kategorisi için, içerik bekleniyor.</h3>
+       <h3 class="px-4 text-[12px] font-thin text-black dark:text-white tracking-widest baslik">{name ? name : slug} kategorisi için, içerik bekleniyor.</h3>
       </div> 
 ) : (
 <>
