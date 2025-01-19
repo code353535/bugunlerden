@@ -135,20 +135,20 @@ function formatDate(postDate) {
       <div class="max-lg:px-4 w-full">
       <div class="grid grid-cols-2 max-sm:grid-cols-1 w-full mt-10 gap-4">
         {/* Previous Post */}
-        {post.nextPost ? (
+        {post.previousPost ? (
           <div class="col-span-1 px-2 py-4 bg-[#000] dark:bg-[#141414] dark:border dark:border-gray-800 group">
-          <a href={`/post/${post.nextPost.slug}`} class="flex items-center text-lg text-gray-200 group">
-            {post.nextPost.featuredImage && (
+          <a href={`/post/${post.previousPost.slug}`} class="flex items-center text-lg text-gray-200 group">
+            {post.previousPost.featuredImage && (
               <img
                 class="w-20 h-20 object-cover rounded-full mx-2 border-[#828282] border-2 border-dashed opacity-70 group-hover:opacity-100 transition duration-200 ease-in-out"
-                src={post.nextPost.featuredImage.node.sourceUrl}
-                alt={post.nextPost.featuredImage.node.altText || "Previous Post Image"}
+                src={post.previousPost.featuredImage.node.sourceUrl}
+                alt={post.previousPost.featuredImage.node.altText || "Previous Post Image"}
               />
             )}
              <div class="flex flex-col px-2">
               <span class="text-xs font-bold text-[#f9d73a] flex justify-start items-center group-hover:-translate-x-1 
                              duration-300 ease-in-out"><Icon name="arrow-left" class="px-1 text-[32px]"/>Önceki Yazı</span>
-            <span class="text-sm font-extralight">{post.nextPost.title}</span>
+            <span class="text-sm font-extralight">{post.previousPost.title}</span>
           </div>
           </a>
         </div>
@@ -162,19 +162,19 @@ function formatDate(postDate) {
         )}
 
         {/* Next Post */}
-        {post.previousPost ? (
+        {post.nextPost ? (
           <div class="col-span-1 px-2 py-4 bg-[#000] dark:bg-[#141414] dark:border dark:border-gray-800 group">
-          <a href={`/post/${post.previousPost.slug}`} class="flex items-center justify-end text-gray-200">
+          <a href={`/post/${post.nextPost.slug}`} class="flex items-center justify-end text-gray-200">
           <div class="flex flex-col px-2">
             <span class="text-xs font-bold text-[#f9d73a] flex justify-end items-center group-hover:translate-x-1 
                              duration-300 ease-in-out">Sonraki Yazı <Icon name="arrow-right" class="px-1 text-[32px]"/></span>
-            <span class="text-sm font-extralight">{post.previousPost.title}</span>
+            <span class="text-sm font-extralight">{post.nextPost.title}</span>
           </div>
-            {post.previousPost.featuredImage && (
+            {post.nextPost.featuredImage && (
               <img
                 class="w-20 h-20 object-cover border-[#828282] border-dashed border-2 rounded-full opacity-70 group-hover:opacity-100 transition duration-200 ease-in-out mx-2"
-                src={post.previousPost.featuredImage.node.sourceUrl}
-                alt={post.previousPost.featuredImage.node.altText || "Next Post Image"}
+                src={post.nextPost.featuredImage.node.sourceUrl}
+                alt={post.nextPost.featuredImage.node.altText || "Next Post Image"}
               />
             )}
           </a>
