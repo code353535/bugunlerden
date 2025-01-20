@@ -8,18 +8,23 @@ app.use(express.json());
 app.post('/trigger-build', async (req, res) => {
     console.log('Webhook tetiklendi: Yeni yazı oluşturuldu.');
 
+    const { slug } = req.body;  // Webhook ile gelen slug, sadece bu yazının sayfasını oluşturacağız.
+
     try {
         // 1. Build işlemi
         console.log('Astro.js build işlemi başlıyor...');
         await new Promise((resolve, reject) => {
-            exec('cd /var/www/html/bugunlerden && npm run build', (error, stdout, stderr) => {
-                if (error) {
-                    console.error(`Build hatası: ${stderr}`);
-                    return reject(new Error('Build işlemi başarısız oldu'));
+            exec(
+                `cd /var/www/html/bugunlerden && npm run build -- --pages "index.astro, post/${slug}.astro"`, // Sadece bu sayfalar build edilecek
+                (error, stdout, stderr) => {
+                    if (error) {
+                        console.error(`Build hatası: ${stderr}`);
+                        return reject(new Error('Build işlemi başarısız oldu'));
+                    }
+                    console.log('Build tamamlandı:\n', stdout);
+                    resolve();
                 }
-                console.log('Build tamamlandı:\n', stdout);
-                resolve();
-            });
+            );
         });
 
         // 2. Dosya taşıma işlemleri
