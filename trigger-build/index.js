@@ -1,6 +1,7 @@
 // index.js
 import express from 'express';
-import { Queue, Worker } from 'bull';
+import pkg from 'bull';
+const { Queue, Worker } = pkg;
 
 // Express sunucusu başlatma
 const app = express();
