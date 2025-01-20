@@ -12,7 +12,7 @@ app.post('/trigger-build', async (req, res) => {
         // 1. Build işlemi
         console.log('Astro.js build işlemi başlıyor...');
         await new Promise((resolve, reject) => {
-            exec('npm run build', (error, stdout, stderr) => {
+            exec('cd /var/www/html/bugunlerden && npm run build', (error, stdout, stderr) => {
                 if (error) {
                     console.error(`Build hatası: ${stderr}`);
                     return reject(new Error('Build işlemi başarısız oldu'));
@@ -20,7 +20,7 @@ app.post('/trigger-build', async (req, res) => {
                 console.log('Build tamamlandı:\n', stdout);
                 resolve();
             });
-});
+        });
 
         // 2. Dosya taşıma işlemleri
         console.log('Dosya işlemleri başlıyor...');
@@ -47,4 +47,3 @@ app.post('/trigger-build', async (req, res) => {
 
 // Sunucu Başlatma
 app.listen(3000, () => console.log('Webhook sunucusu çalışıyor: http://localhost:3000'));
-
