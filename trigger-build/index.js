@@ -1,5 +1,5 @@
 import express from 'express';
-import { Queue, Worker } from 'bull';
+const { Queue, Worker } = require('bull');
 import { exec } from 'child_process';
 
 const app = express();
