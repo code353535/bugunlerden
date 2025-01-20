@@ -1,6 +1,7 @@
 import express from 'express';
-const { Queue, Worker } = require('bull');
 import { exec } from 'child_process';
+import pkg from 'bull';
+const { Queue, Worker } = pkg;
 
 const app = express();
 app.use(express.json());
