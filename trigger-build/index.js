@@ -17,7 +17,7 @@ app.post('/trigger-build', async (req, res) => {
         console.log('Belirli sayfalar için Astro.js build işlemi başlıyor...');
         await new Promise((resolve, reject) => {
             const command = `
-                astro build --only src/pages/index.astro,src/pages/category/${category}.astro,src/pages/author/${authorId}.astro
+                astro build --only /src/pages/index.astro,/src/pages/category/${category}.astro,/src/pages/author/${authorId}.astro
             `;
             exec(command, (error, stdout, stderr) => {
                 if (error) {
