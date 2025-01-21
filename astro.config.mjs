@@ -15,8 +15,9 @@ export default defineConfig({
   integrations: [vue(), tailwind(), icon(), sitemap(), partytown({ config: { forward: ['dataLayer.push'] } })],
 
   build: {
-    output: 'server',
+    output: 'static',
+    incremental: true,
   },
-
+ outDir: './temp'
  
 });
