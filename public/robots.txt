@@ -1,6 +1,8 @@
 # Allow all crawlers to access everything
 User-agent: *
 Disallow:/api/wordpress/
+Disallow: /temp/
+Disallow: /backup/
 
 
 # Sitemap location
