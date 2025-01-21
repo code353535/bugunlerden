@@ -12,7 +12,7 @@ app.post('/trigger-build', async (req, res) => {
         // 1. Build işlemi
         console.log('Astro.js build işlemi başlıyor...');
         await new Promise((resolve, reject) => {
-            exec('npm run build', (error, stdout, stderr) => {
+            exec('cd /var/www/html/bugunlerden && npm run build', (error, stdout, stderr) => {
                 if (error) {
                     console.error(`Build hatası: ${stderr}`);
                     return reject(new Error('Build işlemi başarısız oldu'));
