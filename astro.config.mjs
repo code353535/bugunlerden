@@ -5,21 +5,18 @@ import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
 import partytown from '@astrojs/partytown';
 
+
 export default defineConfig({
+
   image: {
-    domains: ['astro.build'],
+    domains: ["astro.build"],
   },
-  site: 'https://bugunlerde.com',
-  integrations: [
-    vue(),
-    tailwind(),
-    icon(),
-    sitemap(),
-    partytown({ config: { forward: ['dataLayer.push'] } }),
-  ],
+ site: 'https://bugunlerde.com',
+  integrations: [vue(), tailwind(), icon(), sitemap(), partytown({ config: { forward: ['dataLayer.push'] } })],
 
   build: {
-    output: 'static', // Statik site çıktısı
-    outDir: './temp', // Çıktılar temp dizinine yazılacak
+    output: 'static',
   },
+ outDir: './temp'
+ 
 });
