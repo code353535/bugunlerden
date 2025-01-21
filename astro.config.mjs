@@ -16,6 +16,7 @@ export default defineConfig({
 
   build: {
     output: 'static',
+    incremental: true,
   },
  outDir: './temp'
  
