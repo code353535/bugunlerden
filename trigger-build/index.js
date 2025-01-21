@@ -22,22 +22,20 @@ app.post('/trigger-build', async (req, res) => {
             });
         });
 
-        // 2. Dosya taşıma işlemleri
         console.log('Dosya işlemleri başlıyor...');
-        await new Promise((resolve, reject) => {
-            exec(
-                'rm -rf /var/www/html/bugunlerden/dist/* && mv /var/www/html/bugunlerden/temp/* /var/www/html/bugunlerden/dist/',
-                (error, stdout, stderr) => {
-                    if (error) {
-                        console.error(`Dosya işlemi hatası: ${stderr}`);
-                        return reject(new Error('Dosya işlemi başarısız oldu'));
-                    }
-                    console.log('Dosya işlemleri tamamlandı.');
-                    resolve();
-                }
-            );
-        });
-
+await new Promise((resolve, reject) => {
+    exec(
+        'rm -rf /var/www/html/bugunlerden/dist/* && mv /var/www/html/bugunlerden/temp/* /var/www/html/bugunlerden/dist/',
+        (error, stdout, stderr) => {
+            if (error) {
+                console.error(`Dosya işlemi hatası: ${stderr || error.message}`);
+                return reject(new Error('Dosya işlemi başarısız oldu'));
+            }
+            console.log('Dosya işlemleri tamamlandı.');
+            resolve();
+        }
+    );
+});
         res.status(200).send('Build ve dosya taşıma işlemleri tamamlandı.');
     } catch (error) {
         console.error('Hata:', error.message);
