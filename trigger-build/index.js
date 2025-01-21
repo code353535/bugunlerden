@@ -22,7 +22,7 @@ app.post('/trigger-build', async (req, res) => {
             });
         });
 
-        // 2. Dosya taşıma işlemleri
+        // 2. Dosya taşıma işlemi (build tamamlandıktan sonra)
         console.log('Dosya işlemleri başlıyor...');
         await new Promise((resolve, reject) => {
             exec(
