@@ -7,9 +7,6 @@ import partytown from '@astrojs/partytown';
 
 
 export default defineConfig({
-  prefetch: {
-    defaultStrategy: 'viewport'
-  },
 
   image: {
     domains: ["astro.build"],
