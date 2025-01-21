@@ -1,8 +1,12 @@
 import express from 'express';
 import { exec } from 'child_process';
+import { promisify } from 'util';
 
 const app = express();
 app.use(express.json());
+
+// Promisify exec for better error handling
+const execPromise = promisify(exec);
 
 // Astro Build İşlemini Tetikleyen Route
 app.post('/trigger-build', async (req, res) => {
@@ -11,35 +15,22 @@ app.post('/trigger-build', async (req, res) => {
     try {
         // 1. Build işlemi
         console.log('Astro.js build işlemi başlıyor...');
-        await new Promise((resolve, reject) => {
-            exec('cd /var/www/html/bugunlerden && npm run build', (error, stdout, stderr) => {
-                if (error) {
-                    console.error(`Build hatası: ${stderr}`);
-                    return reject(new Error('Build işlemi başarısız oldu'));
-                }
-                console.log('Build tamamlandı:\n', stdout);
-                resolve();
-            });
+        const { stdout: buildOutput } = await execPromise('npm run build', {
+            cwd: '/var/www/html/bugunlerden', // Doğrudan çalışma dizinini ayarla
         });
+        console.log('Build tamamlandı:\n', buildOutput);
 
+        // 2. Dosya taşıma işlemleri
         console.log('Dosya işlemleri başlıyor...');
-await new Promise((resolve, reject) => {
-    exec(
-        'rm -rf /var/www/html/bugunlerden/dist/* && mv /var/www/html/bugunlerden/temp/* /var/www/html/bugunlerden/dist/',
-        (error, stdout, stderr) => {
-            if (error) {
-                console.error(`Dosya işlemi hatası: ${stderr || error.message}`);
-                return reject(new Error('Dosya işlemi başarısız oldu'));
-            }
-            console.log('Dosya işlemleri tamamlandı.');
-            resolve();
-        }
-    );
-});
+        const { stdout: fileOutput } = await execPromise(
+            'rm -rf /var/www/html/bugunlerden/dist/* && mv /var/www/html/bugunlerden/temp/* /var/www/html/bugunlerden/dist/'
+        );
+        console.log('Dosya işlemleri tamamlandı:\n', fileOutput);
+
         res.status(200).send('Build ve dosya taşıma işlemleri tamamlandı.');
     } catch (error) {
         console.error('Hata:', error.message);
-        res.status(500).send('Bir hata oluştu.');
+        res.status(500).send(`Bir hata oluştu: ${error.message}`);
     }
 });
 
