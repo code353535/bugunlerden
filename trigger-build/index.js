@@ -14,13 +14,13 @@ app.post('/trigger-build', async (req, res) => {
         await new Promise((resolve, reject) => {
             exec('npm run build', (error, stdout, stderr) => {
                 if (error) {
-                    console.error(Build hatası: ${stderr});
+                    console.error(`Build hatası: ${stderr}`);
                     return reject(new Error('Build işlemi başarısız oldu'));
                 }
                 console.log('Build tamamlandı:\n', stdout);
                 resolve();
             });
-});
+        });
 
         // 2. Dosya taşıma işlemleri
         console.log('Dosya işlemleri başlıyor...');
@@ -29,7 +29,7 @@ app.post('/trigger-build', async (req, res) => {
                 'rm -rf /var/www/html/bugunlerden/dist/* && mv /var/www/html/bugunlerden/temp/* /var/www/html/bugunlerden/dist/',
                 (error, stdout, stderr) => {
                     if (error) {
-                        console.error(Dosya işlemi hatası: ${stderr});
+                        console.error(`Dosya işlemi hatası: ${stderr}`);
                         return reject(new Error('Dosya işlemi başarısız oldu'));
                     }
                     console.log('Dosya işlemleri tamamlandı.');
@@ -46,4 +46,4 @@ app.post('/trigger-build', async (req, res) => {
 });
 
 // Sunucu Başlatma
-app.listen(3000, () => console.log('Webhook sunucusu çalışıyor: http://localhost:3000')); 
+app.listen(3000, () => console.log('Webhook sunucusu çalışıyor: http://localhost:3000'));
