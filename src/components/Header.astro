@@ -123,10 +123,10 @@ const categories = await fetchCategories();
 
     // If scroll amount exceeds 150px, shrink header
     if (scrollAmount > 150) {
-      header.classList.add("h-[50px]");
+      header.classList.add("h-[50px] backdrop-blur-xs opacity-90");
       header.classList.remove("h-[70px]");
     } else {
-      header.classList.remove("h-[50px]");
+      header.classList.remove("h-[50px] backdrop-blur-xs opacity-90");
       header.classList.add("h-[70px]"); // Restore original height
     }
 
