@@ -27,7 +27,7 @@
   
           <nav class="mt-6 text-black dark:text-gray-100">
             <div v-for="category in categories" :key="category.id">
-              <div class="group mb-4 mx-2 mt-6 border-b-2 border-dotted border-gray-200">
+              <div class="group mb-4 mx-2 mt-6 border-b-2 border-dotted border-gray-200 dark:border-gray-800">
                 <!-- Main Category Click to Navigate and Toggle Subcategories -->
                 <div @click="category.subcategories.length > 0 ? toggleCategory(category.id) : navigateToCategory(category.slug)" class="flex items-center cursor-pointer">
                   <span class="flex text-lg  tracking-wide font-bold uppercase">
