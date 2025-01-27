@@ -5,6 +5,7 @@ import MobileMenu from './MobileMenu.vue';
 import { Icon } from 'astro-icon/components';
 import ScrollProgress from './ScrollProgress.vue';
 import SosyalMedya from './SosyalMedya.astro';
+import { Image } from 'astro:assets';
 
 const categories = await fetchCategories();
 ---
@@ -17,10 +18,12 @@ const categories = await fetchCategories();
       <span class="baslik text-lg text-[#171543] font-black whitespace-nowrap">
         <h1 class="baslik" translate="no">
           <a href="/">
-            <span>B</span><span>U</span><span>G</span><span>U</span><span>N</span><span>L</span><span>E</span><span>R</span><span>D</span><span>E</span>.
-            <span class="bg-[#d7b82b] py-1 px-1 shadow-sm mx-0.2">C</span>
-            <span class="bg-[#d7b82b] py-1 px-1 shadow-sm mx-0.2">O</span>
-            <span class="bg-[#d7b82b] py-1 px-1 shadow-sm mx-0.2">M</span>
+            <Image
+            src="/logom.png" 
+            alt="Header resmi" 
+            width={300}
+            height={60}
+          />
           </a>
         </h1>
       </span>
