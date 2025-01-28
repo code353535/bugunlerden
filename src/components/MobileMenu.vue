@@ -12,10 +12,16 @@
         <div class="bg-[#fff] dark:bg-black  text-black dark:text-gray-100 w-full p-4">
           <div class="flex justify-between border-b border-[#e6e6e5] dark:border-[#2d2d2d]">
             <div class="pb-4 flex flex-row items-center min-h-12">
-              <span class="baslik text-xl font-black whitespace-nowrap animate-charcter">
-                BUGUNLERDE
-              </span>
+              <div class="baslik text-xl gap-2">
+                <span class="bg-red-500 text-[#000] px-1 rounded shadow-md shadow-slate-500/50">B</span>
+                <span class="bg-black text-[#f9d73a] px-1 rounded ml-1 shadow-md shadow-slate-500/50">G</span>
+                <span class="bg-black text-red-500 px-1 rounded ml-1 shadow-md shadow-slate-500/50">N</span>
+                <span class="bg-red-500 text-[#fff] px-1 rounded ml-1 shadow-md shadow-slate-500/50">L</span>
+                <span class="bg-white text-[#f9d73a] px-1 rounded ml-1 shadow-md shadow-slate-500/50">R</span>
+                <span class="bg-red-500 text-[#f9d73a] px-1 rounded ml-1 shadow-md shadow-slate-500/50">D</span>
+              </div>
             </div>
+            
             <div>
               <button @click="MobilMenu = false" class="text-black focus:outline-none mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="font-bold w-6 h-6 text-black dark:text-gray-100">
@@ -27,7 +33,7 @@
   
           <nav class="mt-6 text-black dark:text-gray-100">
             <div v-for="category in categories" :key="category.id">
-              <div class="group mb-4 mx-2 mt-6 border-b-2 border-dotted border-gray-200 dark:border-gray-800">
+              <div class="group mb-4 mx-2 mt-6">
                 <!-- Main Category Click to Navigate and Toggle Subcategories -->
                 <div @click="category.subcategories.length > 0 ? toggleCategory(category.id) : navigateToCategory(category.slug)" class="flex items-center cursor-pointer">
                   <span class="flex text-lg  tracking-wide font-bold uppercase">
