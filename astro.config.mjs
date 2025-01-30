@@ -12,7 +12,6 @@ export default defineConfig({
     domains: ["astro.build"],
   },
  site: 'https://bugunlerde.com',
- trailingSlash: true,
   integrations: [vue(), tailwind(), icon(), sitemap(), partytown({ config: { forward: ['dataLayer.push'] } })],
 
   build: {
